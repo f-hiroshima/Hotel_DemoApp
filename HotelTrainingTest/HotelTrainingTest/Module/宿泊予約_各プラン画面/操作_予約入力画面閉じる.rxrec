@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="dda068ce-3551-46c7-8f48-107996d715d3"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="操作_予約入力画面閉じる"
+	namespace="HotelTrainingTest.Module.宿泊予約_各プラン画面">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="748675cf-6dd7-4108-81ca-72f30870387e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="fda190cc-2f9f-467e-aadc-5dce08dd6e4c"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='hotel-example-site.takeyaqa.dev' and @path='/ja/reserve.html']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="979f71fe-6146-4365-ab48-1098abc4dd4a"
+	name="Hotel_Planisphere"
+	relativepath="..\..\Repository\Hotel_Planisphere.rxrep">
+		<codegen
+		classname="Hotel_Planisphere"
+		namespace="HotelTrainingTest.Repository">
+		</codegen>
+		<rootfolder
+		id="69c7490d-d614-4ebc-96f1-76f669a004c7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		操作_予約入力画面閉じる.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

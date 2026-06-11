@@ -1,0 +1,18 @@
+# Ranorex Specific files
+[Rr]eports
+*.rxlog
+*.rxlog.data
+*.jpg
+*.rxuser
+*.pref
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+.gitattributes

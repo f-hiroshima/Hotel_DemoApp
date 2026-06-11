@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f905d0bb-63e6-4f32-830d-8aedfd44b122"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="操作_予約完了ダイアログ閉じるボタン_押下"
+	namespace="HotelTrainingTest.Module.宿泊予約確認">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="669c50e6-1f73-4da5-8ed1-c5675fe21156"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8261f0de-6790-4e30-8ea4-a49673700763"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='hotel-example-site.takeyaqa.dev' and @path='/ja/confirm.html']//div[@id='success-modal']//button[@innertext='閉じる']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="b7673deb-f329-4258-ba14-1f056683f155"
+		waitaction="NotExists"
+		waittimeout="5000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b13b2ab4-05b2-4cde-85ec-c29650335ad1"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='hotel-example-site.takeyaqa.dev' and @path='/ja/confirm.html']//div[@id='success-modal']/div/div
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+	</recorditems>
+	<repository
+	id="979f71fe-6146-4365-ab48-1098abc4dd4a"
+	name="Hotel_Planisphere"
+	relativepath="..\..\Repository\Hotel_Planisphere.rxrep">
+		<codegen
+		classname="Hotel_Planisphere"
+		namespace="HotelTrainingTest.Repository">
+		</codegen>
+		<rootfolder
+		id="69c7490d-d614-4ebc-96f1-76f669a004c7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		操作_予約完了ダイアログ閉じるボタン_押下.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

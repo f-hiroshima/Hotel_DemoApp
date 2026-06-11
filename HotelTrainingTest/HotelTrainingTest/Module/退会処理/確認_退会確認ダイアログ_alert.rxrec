@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f8863616-42d1-4f58-b645-f5cb15ebaa63"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="確認_退会確認ダイアログ_alert"
+	namespace="HotelTrainingTest.Module.退会処理">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="True"
+		searchpropertyid="684803ce-635a-4f97-8f59-f60734185786"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f826a3e0-35ab-407e-b11a-e96d83fb6155"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title&gt;'&#12510;&#12452;&#12506;&#12540;&#12472; | HOTEL PLANISPHERE']//form[@accessibledescription='&#36864;&#20250;&#20966;&#29702;&#12434;&#23436;&#20102;&#12375;&#12414;&#12375;&#12383;&#12290;&#12372;&#21033;&#29992;&#12354;&#12426;&#12364;&#12392;&#12358;&#12372;&#12374;&#12356;&#12414;&#12375;&#12383;&#12290;']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="979f71fe-6146-4365-ab48-1098abc4dd4a"
+	name="Hotel_Planisphere"
+	relativepath="..\..\Repository\Hotel_Planisphere.rxrep">
+		<codegen
+		classname="Hotel_Planisphere"
+		namespace="HotelTrainingTest.Repository">
+		</codegen>
+		<rootfolder
+		id="69c7490d-d614-4ebc-96f1-76f669a004c7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		確認_退会確認ダイアログ_alert.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

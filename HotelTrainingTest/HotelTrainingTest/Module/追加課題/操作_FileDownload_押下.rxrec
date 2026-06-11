@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="522b0f96-f492-42b8-99d5-cea2e9505df0"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="操作_FileDownload_押下"
+	namespace="HotelTrainingTest.Module.追加課題">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="76519b30-6ae3-43b4-8fa8-d81435c8d9a4"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f986404b-2fc1-411b-bd19-679a4bdb9943"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='the-internet.herokuapp.com']//a[@innertext='File Download']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<invokeactionrecorditem
+		action="WaitForDocumentLoaded"
+		enabled="True"
+		optional="False"
+		searchpropertyid="00b9a288-3c94-44d4-a5e5-6826239ce13c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c7d2834a-31cb-400f-b39f-76c8d4192b9b"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='the-internet.herokuapp.com' and @path='/download']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="536e95be-8912-447a-b86c-50963da29f6b">
+				<argument
+				argname="timeout"
+				id="177299ec-a6f2-4f0f-b93b-a3a8e6beb8df">
+					<argvaluetype>
+						Ranorex.Duration, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+						5000ms
+					</argvalue>
+				</argument>
+			</arguments>
+		</invokeactionrecorditem>
+	</recorditems>
+	<repository
+	id="979f71fe-6146-4365-ab48-1098abc4dd4a"
+	name="Hotel_Planisphere"
+	relativepath="..\..\Repository\Hotel_Planisphere.rxrep">
+		<codegen
+		classname="Hotel_Planisphere"
+		namespace="HotelTrainingTest.Repository">
+		</codegen>
+		<rootfolder
+		id="69c7490d-d614-4ebc-96f1-76f669a004c7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		操作_FileDownload_押下.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

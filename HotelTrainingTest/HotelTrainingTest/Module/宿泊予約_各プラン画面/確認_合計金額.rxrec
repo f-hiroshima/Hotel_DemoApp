@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6f020ddf-898a-4db0-8e66-ffec42710e10"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="確認_合計金額"
+	namespace="HotelTrainingTest.Module.宿泊予約_各プラン画面">
+	</codegen>
+	<variables>
+		<var
+		id="85dde4f9-0c42-4b29-b2f6-499444b2e050"
+		name="total_bill">
+			9,375円
+		</var>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="180ec5a9-5d39-49ac-9ecf-01536fc42ce4"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="total_bill">
+				</binding>
+			</bindings>
+			<info
+			id="771257be-8524-401d-a91f-b349c3d85e23"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='hotel-example-site.takeyaqa.dev' and @path='/ja/reserve.html']//output[@id='total-bill']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				innertext
+			</matchname>
+			<matchvalue>
+				9,375円
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="979f71fe-6146-4365-ab48-1098abc4dd4a"
+	name="Hotel_Planisphere"
+	relativepath="..\..\Repository\Hotel_Planisphere.rxrep">
+		<codegen
+		classname="Hotel_Planisphere"
+		namespace="HotelTrainingTest.Repository">
+		</codegen>
+		<rootfolder
+		id="69c7490d-d614-4ebc-96f1-76f669a004c7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		確認_合計金額.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

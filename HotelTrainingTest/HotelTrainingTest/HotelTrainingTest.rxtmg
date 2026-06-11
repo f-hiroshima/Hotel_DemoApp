@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="HotelTrainingTest"
+      id="8c2a25c9-0396-4b66-908a-bb981dcdf059"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="HotelTrainingTest"
+      id="8c2a25c9-0396-4b66-908a-bb981dcdf059"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

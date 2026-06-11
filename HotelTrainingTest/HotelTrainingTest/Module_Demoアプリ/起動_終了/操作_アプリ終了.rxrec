@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6d083cb0-ec34-4d13-9087-71ad077bbd4a"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="操作_アプリ終了"
+	namespace="HotelTrainingTest.Module_Demoアプリ.起動_終了">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="c35cad54-ac8b-4353-9d9a-670664dfcc09">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e86f8162-d366-4b3a-9e40-de4b790f55d6"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@controlname='RxMainFrame']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="0bb3ef35-db9d-4b24-be0a-7700a3db1b21"
+	name="DemoApp"
+	relativepath="..\..\Repository\DemoApp.rxrep">
+		<codegen
+		classname="DemoApp"
+		namespace="HotelTrainingTest.Repository">
+		</codegen>
+		<rootfolder
+		id="8110013c-c8c0-4c04-97a3-32de2ff8432a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		操作_アプリ終了.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
