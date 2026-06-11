@@ -2,6 +2,12 @@
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
+			<testmodule
+			id="0f091510-6b0c-4e0d-bc51-67804a05cab9"
+			name="操作_ブラウザ起動"
+			ref="512c2214-fa1c-4f33-a8dd-f3dcf1ce9ba4"
+			type="Recording">
+			</testmodule>
 			<setup
 			id="123fcf3c-b6f2-4ef5-8ab3-15484b4331d9"
 			name="setup">
@@ -14,6 +20,12 @@
 			id="1f892770-92a9-4163-8ae8-9c08ceeee4f4"
 			name="操作_予約入力画面閉じる"
 			ref="dda068ce-3551-46c7-8f48-107996d715d3"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="267d216d-b8db-4d8e-8b6a-c80dd4482d36"
+			name="操作_ログインボタン_押下"
+			ref="10e9c523-6fc1-40fa-9f27-e0648207d1f2"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -86,6 +98,11 @@
 			ref="dda068ce-3551-46c7-8f48-107996d715d3"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			datasource="main_DataSource"
+			id="44bc1687-a449-40cd-97aa-b10844503b78"
+			name="main">
+			</smartfoldernode>
 			<teardown
 			id="46b4bada-f780-4655-a2e9-cc12d3bbddbe"
 			name="teardown">
@@ -111,6 +128,10 @@
 			</testmodule>
 			<setup
 			id="62d183a0-386c-461b-b2c2-7843f2f1005a"
+			name="setup">
+			</setup>
+			<setup
+			id="62d8387b-4b8a-4f25-93ba-3831c8d70b39"
 			name="setup">
 			</setup>
 			<testmodule
@@ -162,6 +183,40 @@
 				</missingdatabinding>
 			</testmodule>
 			<testmodule
+			id="6f4648e0-0c69-4c42-8fbe-1f067df51e1a"
+			name="操作_ログイン情報入力"
+			ref="830c9925-e47b-43a9-b051-5643ef754cc1"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="email"
+					datasourceid="431ec43d-80ea-474b-b58e-d5fc3140099c"
+					variableid="a434861a-550d-4bf3-83ff-755a3e016a60"
+					variablename="email">
+					</var>
+					<var
+					dataname="password"
+					datasourceid="431ec43d-80ea-474b-b58e-d5fc3140099c"
+					variableid="265dd5e7-b7ac-464c-a1b5-d1f9f4d5f191"
+					variablename="password">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="email"
+					datasourceid="9a9a196b-9f97-4ae0-9af4-084e543cbb54"
+					variableid="a434861a-550d-4bf3-83ff-755a3e016a60"
+					variablename="email">
+					</var>
+					<var
+					dataname="password"
+					datasourceid="9a9a196b-9f97-4ae0-9af4-084e543cbb54"
+					variableid="265dd5e7-b7ac-464c-a1b5-d1f9f4d5f191"
+					variablename="password">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="7b4fe9a9-e9ff-4e32-9073-c56677783099"
 			name="操作_可変プラン名予約ボタン押下"
 			ref="c5b04cd3-110e-4134-bee7-bf71ef538e33"
@@ -185,8 +240,18 @@
 			ref="b51d2ec5-9a54-46f8-80c4-d94732013fd7"
 			type="Recording">
 			</testmodule>
+			<testcase
+			id="816135e5-f98b-486c-a7fe-d26fcf85072a"
+			name="004_お試し">
+			</testcase>
 			<testmodule
 			id="8676def5-33fc-4e81-af1c-a87ff9ebc877"
+			name="操作_ログアウト_押下"
+			ref="d5f32d0d-29f6-4756-a2f0-86be02331ac2"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="8ff7efc3-31f4-48e3-aa54-0c367d132ea9"
 			name="操作_ログアウト_押下"
 			ref="d5f32d0d-29f6-4756-a2f0-86be02331ac2"
 			type="Recording">
@@ -213,6 +278,22 @@
 					</param>
 				</parameters>
 			</smartfoldernode>
+			<testmodule
+			id="9ab4d62e-61ac-4210-9d9f-2b0b7d7563ee"
+			name="操作_ログアウト_押下"
+			ref="d5f32d0d-29f6-4756-a2f0-86be02331ac2"
+			type="Recording">
+			</testmodule>
+			<teardown
+			id="aa7ea55b-146b-48f9-94dd-56bd9d728826"
+			name="teardown">
+			</teardown>
+			<testmodule
+			id="b657ffc5-def3-46de-9127-33821ab26dc1"
+			name="操作_ログイン_押下"
+			ref="784c8db3-5fe9-48b1-98da-34c5392a17a6"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="b6df5b68-50e9-4317-bdf4-28ba4d5dd375"
 			name="操作_ログイン情報入力"
@@ -327,6 +408,12 @@
 					variablename="total_bill">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="cf1653ac-a8e3-4268-b57c-4351ae7e92ab"
+			name="操作_ブラウザ終了"
+			ref="5c0ffdeb-3348-445a-b1c4-3b63676533ef"
+			type="Recording">
 			</testmodule>
 			<testcase
 			datasource="NewConnector"
@@ -547,11 +634,76 @@
 							</testmodule>
 						</teardown>
 					</testcase>
+					<testcase
+					id="816135e5-f98b-486c-a7fe-d26fcf85072a"
+					name="004_お試し">
+						<setup
+						id="62d8387b-4b8a-4f25-93ba-3831c8d70b39"
+						name="setup">
+							<testmodule
+							id="0f091510-6b0c-4e0d-bc51-67804a05cab9"
+							name="操作_ブラウザ起動">
+							</testmodule>
+						</setup>
+						<smartfoldernode
+						id="44bc1687-a449-40cd-97aa-b10844503b78"
+						name="main">
+							<testmodule
+							id="b657ffc5-def3-46de-9127-33821ab26dc1"
+							name="操作_ログイン_押下">
+							</testmodule>
+							<testmodule
+							id="6f4648e0-0c69-4c42-8fbe-1f067df51e1a"
+							name="操作_ログイン情報入力">
+							</testmodule>
+							<testmodule
+							id="267d216d-b8db-4d8e-8b6a-c80dd4482d36"
+							name="操作_ログインボタン_押下">
+							</testmodule>
+							<testmodule
+							id="8ff7efc3-31f4-48e3-aa54-0c367d132ea9"
+							name="操作_ログアウト_押下">
+							</testmodule>
+						</smartfoldernode>
+						<teardown
+						id="aa7ea55b-146b-48f9-94dd-56bd9d728826"
+						name="teardown">
+							<testmodule
+							id="9ab4d62e-61ac-4210-9d9f-2b0b7d7563ee"
+							name="操作_ログアウト_押下">
+							</testmodule>
+							<testmodule
+							id="cf1653ac-a8e3-4268-b57c-4351ae7e92ab"
+							name="操作_ブラウザ終了">
+							</testmodule>
+						</teardown>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
 	</testsuiteentryhierarchy>
 	<datasources>
+		<DataSource
+		id="431ec43d-80ea-474b-b58e-d5fc3140099c"
+		includefile="Checked"
+		lastknownrowcount="1"
+		name="main_DataSource"
+		type="Ranorex.Core.Data.CsvDataConnector"
+		withheaders="True">
+			<lastknowncolumns>
+				<column>
+					email
+				</column>
+				<column>
+					password
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<file>
+				main_DataSource.csv
+			</file>
+		</DataSource>
 		<DataSource
 		filename=".\Data\TestData.xlsx"
 		id="7c52f618-7e2b-442e-8815-01e9e199501f"
@@ -624,7 +776,13 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
+			id="44bc1687-a449-40cd-97aa-b10844503b78">
+			</testcontainer>
+			<testcontainer
 			id="4fbab3f7-b72c-4fa8-a485-fe3b6d34be4b">
+			</testcontainer>
+			<testcontainer
+			id="816135e5-f98b-486c-a7fe-d26fcf85072a">
 			</testcontainer>
 			<testcontainer
 			id="9a9a196b-9f97-4ae0-9af4-084e543cbb54">

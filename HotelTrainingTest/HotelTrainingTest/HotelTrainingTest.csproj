@@ -1343,6 +1343,13 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>96fe1b94-3a62-48be-9b6b-99ca6845a490</id>
     </Content>
+    <Content Include="main_DataSource.csv">
+      <Link>main_DataSource.csv</Link>
+      <BoundTo>4f6aff84-6c1d-4bdf-b1bf-58a166e9019b</BoundTo>
+      <DependentUpon>Practice2.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>57084ece-6152-4f94-a49f-c4543b873738</id>
+    </Content>
     <None Include="Module\その他\操作_予約ボタン_押下.rxrec">
       <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
       <id>17c42411-423d-4d7d-a3a6-e60a337a85bd</id>
