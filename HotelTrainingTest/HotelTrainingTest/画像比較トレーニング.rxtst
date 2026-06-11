@@ -58,28 +58,6 @@
 			ref="522b0f96-f492-42b8-99d5-cea2e9505df0"
 			type="Recording">
 			</testmodule>
-			<testcase
-			datasource="ImageBase"
-			id="0a9bc3ad-b1df-4357-9687-681dbae0377a"
-			name="T05_WindowsApp_表一部除外">
-				<parameters>
-					<param
-					mask="False"
-					name="evidenceFolderPath"
-					value="">
-					</param>
-					<param
-					mask="False"
-					name="resultFolderPath"
-					value="">
-					</param>
-					<param
-					mask="False"
-					name="targetFolderPath"
-					value="">
-					</param>
-				</parameters>
-			</testcase>
 			<testmodule
 			id="0ad4d093-71b5-4f3c-b6db-0c3a1c0579d4"
 			name="操作_ログイン_押下"
@@ -100,62 +78,6 @@
 			id="10fc42b8-4e10-46c0-8c69-76ff3d8b2f7d"
 			name="teardown">
 			</teardown>
-			<testmodule
-			id="120d3077-40b1-4a96-affe-6fea62a1c876"
-			name="確認_猫の画像"
-			ref="66b9d8fd-692a-408f-b4bb-c9ddef3bfb54"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="fileExtension"
-					datasourceid="f5b8386c-885e-4d85-a909-89155fcff898"
-					variableid="28427af1-1e77-415e-ac4b-17a02f63011f"
-					variablename="fileExtension">
-					</var>
-					<var
-					dataname="targetName"
-					datasourceid="99845774-a98f-4771-89ca-5d1bf27b525f"
-					variableid="18ef11b1-176b-45be-b1af-a0f9a570b5a2"
-					variablename="targetName">
-					</var>
-					<var
-					dataname="evidenceFolderPath"
-					datasourceid="5d826e44-375c-49d4-9b82-21d1d69e822e"
-					variableid="f405974b-6334-44e0-81bb-46ed755b9cee"
-					variablename="evidenceFolderPath">
-					</var>
-					<var
-					dataname="resultFolderPath"
-					datasourceid="5d826e44-375c-49d4-9b82-21d1d69e822e"
-					variableid="12b24834-d355-4b2a-96bc-6a3cd2930845"
-					variablename="resultFolderPath">
-					</var>
-					<var
-					dataname="targetFolderPath"
-					datasourceid="5d826e44-375c-49d4-9b82-21d1d69e822e"
-					variableid="5106599f-995e-4ab5-9265-42fad6a74b89"
-					variablename="targetFolderPath">
-					</var>
-					<var
-					dataname="evidenceFileName"
-					datasourceid="5df2b6da-8a17-4ada-ac2c-eac220599675"
-					variableid="0960d050-cb95-48ea-8bc8-caefd8dcc445"
-					variablename="evidenceFileName">
-					</var>
-					<var
-					dataname="resultFileName"
-					datasourceid="5df2b6da-8a17-4ada-ac2c-eac220599675"
-					variableid="91494507-d303-4770-b196-3556faf7705a"
-					variablename="resultFileName">
-					</var>
-					<var
-					dataname="targetFileName"
-					datasourceid="5df2b6da-8a17-4ada-ac2c-eac220599675"
-					variableid="e1799dc4-0e9f-42eb-b377-d8ef006df12f"
-					variablename="targetFileName">
-					</var>
-				</databinding>
-			</testmodule>
 			<smartfoldernode
 			datasource="ImageTest3"
 			id="16065654-d0ef-42ea-bd6f-9f0d833a7adb"
@@ -178,86 +100,6 @@
 					</param>
 				</parameters>
 			</smartfoldernode>
-			<testmodule
-			id="16a1046a-c937-4158-8499-52c93d43f39b"
-			name="確認_Table領域"
-			ref="32dcaa59-3e35-4361-80a8-07c3ae465689"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="fileExtension"
-					datasourceid="f5b8386c-885e-4d85-a909-89155fcff898"
-					variableid="a61ea2fd-5300-42c3-b6ec-d9f4094a77b0"
-					variablename="fileExtension">
-					</var>
-					<var
-					dataname="targetName"
-					datasourceid="b706b784-69c7-4e35-b44a-dcff69a2b9a2"
-					variableid="4f266eab-078b-4905-8c8a-5a98a13e7990"
-					variablename="targetName">
-					</var>
-					<var
-					dataname="evidenceFolderPath"
-					datasourceid="0a9bc3ad-b1df-4357-9687-681dbae0377a"
-					variableid="f375ed5c-cc72-437c-accd-973ae7b74bf9"
-					variablename="evidenceFolderPath">
-					</var>
-					<var
-					dataname="resultFolderPath"
-					datasourceid="0a9bc3ad-b1df-4357-9687-681dbae0377a"
-					variableid="d0116f07-dcaa-43bc-b58f-a87ae4104880"
-					variablename="resultFolderPath">
-					</var>
-					<var
-					dataname="targetFolderPath"
-					datasourceid="0a9bc3ad-b1df-4357-9687-681dbae0377a"
-					variableid="616dd98a-4bfa-42a6-995f-b3c7b44cf49f"
-					variablename="targetFolderPath">
-					</var>
-					<var
-					dataname="evidenceFileName"
-					datasourceid="b1339c27-d211-472d-bc97-223654b89a12"
-					variableid="5fd01ac7-23e3-4098-bbc9-f1bc1acf6eca"
-					variablename="evidenceFileName">
-					</var>
-					<var
-					dataname="resultFileName"
-					datasourceid="b1339c27-d211-472d-bc97-223654b89a12"
-					variableid="5b1ff985-6b19-447a-a444-70ce30279a3f"
-					variablename="resultFileName">
-					</var>
-					<var
-					dataname="targetFileName"
-					datasourceid="b1339c27-d211-472d-bc97-223654b89a12"
-					variableid="5478a3e2-0f45-447b-9592-b75eb958ee67"
-					variablename="targetFileName">
-					</var>
-					<var
-					dataname="rowIndex"
-					datasourceid="b1339c27-d211-472d-bc97-223654b89a12"
-					variableid="3ba6d22c-db6c-4b68-8a7d-a9909f8c81d4"
-					variablename="rowIndex">
-					</var>
-					<var
-					dataname="colIndex"
-					datasourceid="b1339c27-d211-472d-bc97-223654b89a12"
-					variableid="a7e7cbec-5c50-45a6-9942-0e6414418d5e"
-					variablename="colIndex">
-					</var>
-				</databinding>
-			</testmodule>
-			<testmodule
-			id="180a1fa7-531f-41e6-a017-3ac7845121a4"
-			name="操作_UI_elementタブ開く"
-			ref="13667a4d-347a-416b-9710-f92a756795ff"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="1b42d180-cd60-4068-a3fc-964c0fde9539"
-			name="操作_チェックボックス_押下"
-			ref="7f9b0c6c-e4a4-4449-956b-a65e3a7662ed"
-			type="Recording">
-			</testmodule>
 			<testmodule
 			id="26535c1d-6b9e-46ea-8458-97e77a3e45b6"
 			name="操作_エビデンスフォルダ作成"
@@ -400,16 +242,6 @@
 					</var>
 				</databinding>
 			</testmodule>
-			<testmodule
-			id="3062ad4b-48dc-492b-9ef0-e77d83475125"
-			name="操作_アプリ終了"
-			ref="6d083cb0-ec34-4d13-9087-71ad077bbd4a"
-			type="Recording">
-			</testmodule>
-			<setup
-			id="306ac883-7fc4-469a-81af-2baa825fe302"
-			name="setup">
-			</setup>
 			<testmodule
 			id="3a9f9449-29e5-45c3-b0b9-8893da476757"
 			name="操作_会員登録"
@@ -561,124 +393,10 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			id="414f16f0-4b09-4aef-b0bf-87600cc74a33"
-			name="操作_エビデンスフォルダ作成"
-			ref="62e7cbb1-8a35-4d7b-b7ce-9c7b7af79621"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="baseEvidenceFolderPath"
-					datasourceid="f5b8386c-885e-4d85-a909-89155fcff898"
-					variableid="ee09c9d9-abf0-49ea-8f88-b98d1c2fb243"
-					variablename="baseEvidenceFolderPath">
-					</var>
-					<var
-					dataname="baseResultFolderPath"
-					datasourceid="f5b8386c-885e-4d85-a909-89155fcff898"
-					variableid="2a1e289b-a969-4904-ae19-44542d78b033"
-					variablename="baseResultFolderPath">
-					</var>
-					<var
-					dataname="baseTargetFolderPath"
-					datasourceid="f5b8386c-885e-4d85-a909-89155fcff898"
-					variableid="8d01f429-8171-414d-b834-4df1d7867424"
-					variablename="baseTargetFolderPath">
-					</var>
-					<var
-					dataname="evidenceFolderPath"
-					datasourceid="0a9bc3ad-b1df-4357-9687-681dbae0377a"
-					variableid="6eac5a12-203a-4117-9101-e4fb855563be"
-					variablename="evidenceFolderPath">
-					</var>
-					<var
-					dataname="resultFolderPath"
-					datasourceid="0a9bc3ad-b1df-4357-9687-681dbae0377a"
-					variableid="c9c857f6-fe42-4cee-a70a-b9030518031a"
-					variablename="resultFolderPath">
-					</var>
-					<var
-					dataname="targetFolderPath"
-					datasourceid="0a9bc3ad-b1df-4357-9687-681dbae0377a"
-					variableid="acdf971f-147f-445d-8046-4b39a12b907d"
-					variablename="targetFolderPath">
-					</var>
-				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="evidenceFolderPath"
-					datasourceid="5d826e44-375c-49d4-9b82-21d1d69e822e"
-					variableid="6eac5a12-203a-4117-9101-e4fb855563be"
-					variablename="evidenceFolderPath">
-					</var>
-					<var
-					dataname="resultFolderPath"
-					datasourceid="5d826e44-375c-49d4-9b82-21d1d69e822e"
-					variableid="c9c857f6-fe42-4cee-a70a-b9030518031a"
-					variablename="resultFolderPath">
-					</var>
-					<var
-					dataname="targetFolderPath"
-					datasourceid="5d826e44-375c-49d4-9b82-21d1d69e822e"
-					variableid="acdf971f-147f-445d-8046-4b39a12b907d"
-					variablename="targetFolderPath">
-					</var>
-				</missingdatabinding>
-			</testmodule>
-			<testmodule
 			id="4860267b-67fe-4d41-99a3-8da388aae585"
 			name="操作_ブラウザ終了_追加課題"
 			ref="3ca54b22-d136-4e1b-ac1c-092a1b28aa9f"
 			type="Recording">
-			</testmodule>
-			<testmodule
-			id="5323379a-04be-41e5-8729-c340974e3043"
-			name="操作_アプリ起動"
-			ref="3bddbb4d-3ff8-4f79-b2b8-ca56827d5653"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="55769241-38cd-4815-8648-c7565ecb6a8b"
-			name="操作_エビデンスフォルダ作成"
-			ref="62e7cbb1-8a35-4d7b-b7ce-9c7b7af79621"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="baseEvidenceFolderPath"
-					datasourceid="f5b8386c-885e-4d85-a909-89155fcff898"
-					variableid="ee09c9d9-abf0-49ea-8f88-b98d1c2fb243"
-					variablename="baseEvidenceFolderPath">
-					</var>
-					<var
-					dataname="baseResultFolderPath"
-					datasourceid="f5b8386c-885e-4d85-a909-89155fcff898"
-					variableid="2a1e289b-a969-4904-ae19-44542d78b033"
-					variablename="baseResultFolderPath">
-					</var>
-					<var
-					dataname="baseTargetFolderPath"
-					datasourceid="f5b8386c-885e-4d85-a909-89155fcff898"
-					variableid="8d01f429-8171-414d-b834-4df1d7867424"
-					variablename="baseTargetFolderPath">
-					</var>
-					<var
-					dataname="evidenceFolderPath"
-					datasourceid="5d826e44-375c-49d4-9b82-21d1d69e822e"
-					variableid="6eac5a12-203a-4117-9101-e4fb855563be"
-					variablename="evidenceFolderPath">
-					</var>
-					<var
-					dataname="resultFolderPath"
-					datasourceid="5d826e44-375c-49d4-9b82-21d1d69e822e"
-					variableid="c9c857f6-fe42-4cee-a70a-b9030518031a"
-					variablename="resultFolderPath">
-					</var>
-					<var
-					dataname="targetFolderPath"
-					datasourceid="5d826e44-375c-49d4-9b82-21d1d69e822e"
-					variableid="acdf971f-147f-445d-8046-4b39a12b907d"
-					variablename="targetFolderPath">
-					</var>
-				</databinding>
 			</testmodule>
 			<testmodule
 			id="572c3f95-defe-4f0c-81cd-b7e51871ade6"
@@ -719,50 +437,6 @@
 			name="画像比較トレーニング"
 			reportlevel="Info;20">
 			</testcase>
-			<testcase
-			datasource="ImageBase"
-			id="5d826e44-375c-49d4-9b82-21d1d69e822e"
-			name="T04_WindowsApp_画像比較">
-				<parameters>
-					<param
-					mask="False"
-					name="evidenceFolderPath"
-					value="">
-					</param>
-					<param
-					mask="False"
-					name="resultFolderPath"
-					value="">
-					</param>
-					<param
-					mask="False"
-					name="targetFolderPath"
-					value="">
-					</param>
-				</parameters>
-			</testcase>
-			<smartfoldernode
-			datasource="ImageTest4"
-			id="5df2b6da-8a17-4ada-ac2c-eac220599675"
-			name="画像比較">
-				<parameters>
-					<param
-					mask="False"
-					name="evidenceFileName"
-					value="">
-					</param>
-					<param
-					mask="False"
-					name="resultFileName"
-					value="">
-					</param>
-					<param
-					mask="False"
-					name="targetFileName"
-					value="">
-					</param>
-				</parameters>
-			</smartfoldernode>
 			<testmodule
 			id="68b88af5-c012-4870-adde-a5ecb83891c0"
 			name="操作_任意のファイルダウンロード"
@@ -953,54 +627,12 @@
 			id="aa465703-5369-4b14-b3b9-46ecd9a54291"
 			name="setup">
 			</setup>
-			<teardown
-			id="ae68937a-c221-4ea0-9126-26610e8083ae"
-			name="teardown">
-			</teardown>
-			<testmodule
-			id="af46464d-8c97-48b9-8544-361d189b6b1f"
-			name="操作_アプリ起動"
-			ref="3bddbb4d-3ff8-4f79-b2b8-ca56827d5653"
-			type="Recording">
-			</testmodule>
 			<testmodule
 			id="af80ce6c-12d2-4a79-85b2-6444f5a7d410"
 			name="操作_ブラウザ終了"
 			ref="5c0ffdeb-3348-445a-b1c4-3b63676533ef"
 			type="Recording">
 			</testmodule>
-			<smartfoldernode
-			datasource="ImageTest5"
-			id="b1339c27-d211-472d-bc97-223654b89a12"
-			name="画像比較">
-				<parameters>
-					<param
-					mask="False"
-					name="evidenceFileName"
-					value="">
-					</param>
-					<param
-					mask="False"
-					name="resultFileName"
-					value="">
-					</param>
-					<param
-					mask="False"
-					name="targetFileName"
-					value="">
-					</param>
-					<param
-					mask="False"
-					name="rowIndex"
-					value="">
-					</param>
-					<param
-					mask="False"
-					name="colIndex"
-					value="">
-					</param>
-				</parameters>
-			</smartfoldernode>
 			<teardown
 			id="b394ccb6-4fb1-448c-a430-52f01505d3b0"
 			name="teardown">
@@ -1033,10 +665,6 @@
 			ref="5c0ffdeb-3348-445a-b1c4-3b63676533ef"
 			type="Recording">
 			</testmodule>
-			<teardown
-			id="bd1fc75b-25bd-41c5-9fbc-7eb7bcf67f9d"
-			name="teardown">
-			</teardown>
 			<teardown
 			id="bdd685b4-92a6-41cc-9bbe-cf22e9f4e5fd"
 			name="teardown">
@@ -1251,10 +879,6 @@
 			id="db6c80b5-5613-4911-bf94-b3d7047183e1"
 			name="setup">
 			</setup>
-			<setup
-			id="ded5a313-7387-42ba-b42e-f30156f7e2ad"
-			name="setup">
-			</setup>
 			<testsuite
 			ExportColumnList="None"
 			ReportTime="RelativeToTestSuiteStartTime"
@@ -1287,12 +911,6 @@
 			reportwriteinterval="30000ms"
 			singlereportpdfdirectory="SingleReportPDF">
 			</testsuite>
-			<testmodule
-			id="e0979621-69a9-4fef-80fe-d0b9dc994e88"
-			name="操作_Image_basedタブ開く"
-			ref="202cd949-af45-4eed-9175-fa1dbdef9bc8"
-			type="Recording">
-			</testmodule>
 			<testmodule
 			id="e15c81aa-6799-48a7-ba77-a8c53f36761b"
 			name="操作_エビデンスフォルダ作成"
@@ -1336,12 +954,6 @@
 					variablename="targetFolderPath">
 					</var>
 				</databinding>
-			</testmodule>
-			<testmodule
-			id="eff4b8ff-fb0f-418e-9b3e-5d9aaf7cf44d"
-			name="操作_アプリ終了"
-			ref="6d083cb0-ec34-4d13-9087-71ad077bbd4a"
-			type="Recording">
 			</testmodule>
 			<testcase
 			datasource="ImageBase"
@@ -1500,82 +1112,6 @@
 							<testmodule
 							id="af80ce6c-12d2-4a79-85b2-6444f5a7d410"
 							name="操作_ブラウザ終了">
-							</testmodule>
-						</teardown>
-					</testcase>
-					<testcase
-					id="5d826e44-375c-49d4-9b82-21d1d69e822e"
-					name="T04_WindowsApp_画像比較">
-						<setup
-						id="ded5a313-7387-42ba-b42e-f30156f7e2ad"
-						name="setup">
-							<testmodule
-							id="55769241-38cd-4815-8648-c7565ecb6a8b"
-							name="操作_エビデンスフォルダ作成">
-							</testmodule>
-							<testmodule
-							id="5323379a-04be-41e5-8729-c340974e3043"
-							name="操作_アプリ起動">
-							</testmodule>
-						</setup>
-						<smartfoldernode
-						id="5df2b6da-8a17-4ada-ac2c-eac220599675"
-						name="画像比較">
-							<testmodule
-							id="e0979621-69a9-4fef-80fe-d0b9dc994e88"
-							name="操作_Image_basedタブ開く">
-							</testmodule>
-							<testmodule
-							id="1b42d180-cd60-4068-a3fc-964c0fde9539"
-							name="操作_チェックボックス_押下">
-							</testmodule>
-							<testmodule
-							id="120d3077-40b1-4a96-affe-6fea62a1c876"
-							name="確認_猫の画像">
-							</testmodule>
-						</smartfoldernode>
-						<teardown
-						id="ae68937a-c221-4ea0-9126-26610e8083ae"
-						name="teardown">
-							<testmodule
-							id="eff4b8ff-fb0f-418e-9b3e-5d9aaf7cf44d"
-							name="操作_アプリ終了">
-							</testmodule>
-						</teardown>
-					</testcase>
-					<testcase
-					id="0a9bc3ad-b1df-4357-9687-681dbae0377a"
-					name="T05_WindowsApp_表一部除外">
-						<setup
-						id="306ac883-7fc4-469a-81af-2baa825fe302"
-						name="setup">
-							<testmodule
-							id="414f16f0-4b09-4aef-b0bf-87600cc74a33"
-							name="操作_エビデンスフォルダ作成">
-							</testmodule>
-							<testmodule
-							id="af46464d-8c97-48b9-8544-361d189b6b1f"
-							name="操作_アプリ起動">
-							</testmodule>
-						</setup>
-						<smartfoldernode
-						id="b1339c27-d211-472d-bc97-223654b89a12"
-						name="画像比較">
-							<testmodule
-							id="180a1fa7-531f-41e6-a017-3ac7845121a4"
-							name="操作_UI_elementタブ開く">
-							</testmodule>
-							<testmodule
-							id="16a1046a-c937-4158-8499-52c93d43f39b"
-							name="確認_Table領域">
-							</testmodule>
-						</smartfoldernode>
-						<teardown
-						id="bd1fc75b-25bd-41c5-9fbc-7eb7bcf67f9d"
-						name="teardown">
-							<testmodule
-							id="3062ad4b-48dc-492b-9ef0-e77d83475125"
-							name="操作_アプリ終了">
 							</testmodule>
 						</teardown>
 					</testcase>

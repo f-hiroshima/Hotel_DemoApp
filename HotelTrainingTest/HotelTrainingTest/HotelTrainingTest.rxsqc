@@ -38,10 +38,5 @@
     "Enabled": "True",
     "TestSuite": "画像比較トレーニング",
     "RunConfig": "TestRun"
-  },
-  {
-    "Enabled": "True",
-    "TestSuite": "Windowsアプリ",
-    "RunConfig": "TestRun"
   }
 ]

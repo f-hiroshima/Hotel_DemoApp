@@ -1126,186 +1126,6 @@
       <UserCode>true</UserCode>
       <id>5625dfb2-14d1-4668-beca-23bcf99a927d</id>
     </Compile>
-    <Compile Include="Module_Demoアプリ\Test database\データソースフィルタ_リスト確認.cs">
-      <BoundTo>60f9fe0f-b2e6-4074-9548-5caad02d38f6</BoundTo>
-      <DependentUpon>データソースフィルタ_リスト確認.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>d944b25d-eb4c-44a2-a692-3e32256eab68</id>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\Test database\データソースフィルタ_リスト確認.UserCode.cs">
-      <BoundTo>60f9fe0f-b2e6-4074-9548-5caad02d38f6</BoundTo>
-      <DependentUpon>データソースフィルタ_リスト確認.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>35898b5e-be77-4143-bfaf-d283b2229c6c</id>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\Test database\操作_情報入力.cs">
-      <BoundTo>8258a6e0-9ae5-4aad-883b-843879a23d4b</BoundTo>
-      <DependentUpon>操作_情報入力.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>2a943ade-0b0e-492b-8e65-0803f29fbdbe</id>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\Test database\操作_情報入力.UserCode.cs">
-      <BoundTo>8258a6e0-9ae5-4aad-883b-843879a23d4b</BoundTo>
-      <DependentUpon>操作_情報入力.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>f1f66c1f-43d6-48c5-88a7-aaabe203d445</id>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\Test database\確認_登録人数_リスト内容.cs">
-      <BoundTo>657c16c0-6fbd-4aae-a40f-a51b74cc9252</BoundTo>
-      <DependentUpon>確認_登録人数_リスト内容.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>96ba9e6e-3b0f-454e-a7d2-e67637663016</id>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\Test database\確認_登録人数_リスト内容.UserCode.cs">
-      <BoundTo>657c16c0-6fbd-4aae-a40f-a51b74cc9252</BoundTo>
-      <DependentUpon>確認_登録人数_リスト内容.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>5c3806a6-9192-4de5-8702-1eab9d05abba</id>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\Test database\確認_リスト登録内容.cs">
-      <BoundTo>3e08f812-ad51-44c4-b6af-739a563fb370</BoundTo>
-      <DependentUpon>確認_リスト登録内容.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>0c2517bc-af8c-4c68-8544-2326ed6aaf18</id>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\Test database\確認_リスト登録内容.UserCode.cs">
-      <BoundTo>3e08f812-ad51-44c4-b6af-739a563fb370</BoundTo>
-      <DependentUpon>確認_リスト登録内容.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>8772e5b3-8a23-4e8e-9abd-108ddc22262b</id>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\Test database\確認_登録人数.cs">
-      <BoundTo>76798a81-bf05-4203-8b5d-7dbe68dff135</BoundTo>
-      <DependentUpon>確認_登録人数.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>c64de8d5-589d-4297-b4ed-bb90a505d7ad</id>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\Test database\確認_登録人数.UserCode.cs">
-      <BoundTo>76798a81-bf05-4203-8b5d-7dbe68dff135</BoundTo>
-      <DependentUpon>確認_登録人数.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>8749641a-32e8-485a-a3c9-121dabb1f86e</id>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\Test database\確認_登録者リスト.cs">
-      <BoundTo>7822a384-b66d-422a-846f-19765e2b9308</BoundTo>
-      <DependentUpon>確認_登録者リスト.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>5310abc4-da64-4b0a-9b4f-8e1182fc686c</id>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\Test database\確認_登録者リスト.UserCode.cs">
-      <BoundTo>7822a384-b66d-422a-846f-19765e2b9308</BoundTo>
-      <DependentUpon>確認_登録者リスト.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>64a5c197-32e6-4ab2-9b5b-a5428acf1498</id>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\共通\操作_Test_databaseタブ開く.cs">
-      <BoundTo>4ffecd6b-2bd6-4eb4-a020-a0c509a72829</BoundTo>
-      <DependentUpon>操作_Test_databaseタブ開く.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>722833fc-e000-4f58-9c39-493c67940ec1</id>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\共通\操作_Test_databaseタブ開く.UserCode.cs">
-      <BoundTo>4ffecd6b-2bd6-4eb4-a020-a0c509a72829</BoundTo>
-      <DependentUpon>操作_Test_databaseタブ開く.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>0d8521c8-01bb-40b8-9441-51d6f9c919af</id>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\起動_終了\操作_アプリ終了.cs">
-      <DependentUpon>操作_アプリ終了.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>42ddec12-8a66-4884-8f33-709efb1ef5fc</id>
-      <BoundTo>8197b276-92ee-4a98-abaf-17e43d677275</BoundTo>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\起動_終了\操作_アプリ終了.UserCode.cs">
-      <DependentUpon>操作_アプリ終了.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>b0c383ad-cae7-4615-9627-ac566a5f552b</id>
-      <BoundTo>8197b276-92ee-4a98-abaf-17e43d677275</BoundTo>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\起動_終了\操作_アプリ起動.cs">
-      <DependentUpon>操作_アプリ起動.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>4c913797-7944-443a-b7cf-1e3cfa2284ea</id>
-      <BoundTo>e11e0641-0626-4a2b-b1e6-acd4ce441a0d</BoundTo>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\起動_終了\操作_アプリ起動.UserCode.cs">
-      <DependentUpon>操作_アプリ起動.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>52296ef1-6563-4ffb-9dba-509eb034a561</id>
-      <BoundTo>e11e0641-0626-4a2b-b1e6-acd4ce441a0d</BoundTo>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\Image-based automation\操作_チェックボックス_押下.cs">
-      <DependentUpon>操作_チェックボックス_押下.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>d40f9481-3ade-4713-a4c8-c153dc12f00f</id>
-      <BoundTo>c649e6f5-0ec7-4d05-840a-2390d9537b02</BoundTo>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\Image-based automation\操作_チェックボックス_押下.UserCode.cs">
-      <DependentUpon>操作_チェックボックス_押下.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>7fae4979-b805-446b-8f53-7ad0fe181ecc</id>
-      <BoundTo>c649e6f5-0ec7-4d05-840a-2390d9537b02</BoundTo>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\Introduction\操作_名前入力.cs">
-      <BoundTo>d9144df3-f9bd-4f7a-b5aa-0035cb90baf3</BoundTo>
-      <DependentUpon>操作_名前入力.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>200b5b07-1bb5-4553-8530-51c39639fba4</id>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\Introduction\操作_名前入力.UserCode.cs">
-      <BoundTo>d9144df3-f9bd-4f7a-b5aa-0035cb90baf3</BoundTo>
-      <DependentUpon>操作_名前入力.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>19299c5b-8b6f-495c-9be4-aa4609c180cb</id>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\Introduction\確認_メッセージ内容.cs">
-      <BoundTo>73c85b81-83eb-4530-bf39-6061ae2d162a</BoundTo>
-      <DependentUpon>確認_メッセージ内容.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>b8d33359-a6ae-4f0a-bb5a-5976a3dc6f81</id>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\Introduction\確認_メッセージ内容.UserCode.cs">
-      <BoundTo>73c85b81-83eb-4530-bf39-6061ae2d162a</BoundTo>
-      <DependentUpon>確認_メッセージ内容.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>4addd070-0e9f-4a76-95e5-67c25747d966</id>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\共通\操作_Image_basedタブ開く.cs">
-      <DependentUpon>操作_Image_basedタブ開く.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>137f0e70-0ad7-49eb-ae56-ebc0c2f54fcf</id>
-      <BoundTo>a09afb24-d5ea-40ec-b5f5-97726ea1a82c</BoundTo>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\共通\操作_Image_basedタブ開く.UserCode.cs">
-      <DependentUpon>操作_Image_basedタブ開く.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>dfde740e-5c11-4690-9c3e-31b7ad045926</id>
-      <BoundTo>a09afb24-d5ea-40ec-b5f5-97726ea1a82c</BoundTo>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\共通\操作_Introductionタブ開く.cs">
-      <BoundTo>3d67c7da-5bff-40df-ad03-8c7be96306b1</BoundTo>
-      <DependentUpon>操作_Introductionタブ開く.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>539be4cc-63b9-4790-bd78-e7e5cb93ebf8</id>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\共通\操作_Introductionタブ開く.UserCode.cs">
-      <BoundTo>3d67c7da-5bff-40df-ad03-8c7be96306b1</BoundTo>
-      <DependentUpon>操作_Introductionタブ開く.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>dc4a47ec-1285-4dfe-a3dd-e51d8eedf09f</id>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\共通\操作_UI_elementタブ開く.cs">
-      <DependentUpon>操作_UI_elementタブ開く.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>9c689487-bf22-4149-99e5-990d58d3607a</id>
-      <BoundTo>54430323-4959-45eb-8406-769db31303e5</BoundTo>
-    </Compile>
-    <Compile Include="Module_Demoアプリ\共通\操作_UI_elementタブ開く.UserCode.cs">
-      <DependentUpon>操作_UI_elementタブ開く.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>346819a6-d771-4bcc-8717-6b862b6d68b3</id>
-      <BoundTo>54430323-4959-45eb-8406-769db31303e5</BoundTo>
-    </Compile>
     <Compile Include="Module_Usercode\T2_5_チェックボックス.cs">
       <BoundTo>e69c40c1-ab8b-4e17-8abc-6c8831967f20</BoundTo>
       <DependentUpon>T2_5_チェックボックス.rxrec</DependentUpon>
@@ -1438,18 +1258,6 @@
       <UserCode>true</UserCode>
       <id>f2c26cbf-d5bf-4e2d-84c9-256e6d6eec7f</id>
     </Compile>
-    <Compile Include="Module_Usercode\画像比較\確認_Table領域.cs">
-      <BoundTo>d40f0117-f9fb-4c4f-bd3f-8d196b2528b6</BoundTo>
-      <DependentUpon>確認_Table領域.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>fc1e0434-0513-4d5a-bd11-7813d36f2592</id>
-    </Compile>
-    <Compile Include="Module_Usercode\画像比較\確認_Table領域.UserCode.cs">
-      <BoundTo>d40f0117-f9fb-4c4f-bd3f-8d196b2528b6</BoundTo>
-      <DependentUpon>確認_Table領域.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>a82aa1e4-b6bd-4ae5-8cac-b8744db1303b</id>
-    </Compile>
     <Compile Include="Module_Usercode\画像比較\確認_ログアウトボタン.cs">
       <BoundTo>3122ff4b-a016-45d8-b2b7-293d613f0735</BoundTo>
       <DependentUpon>確認_ログアウトボタン.rxrec</DependentUpon>
@@ -1473,18 +1281,6 @@
       <DependentUpon>確認_ログイン画面.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>a36317c6-1494-4515-bb74-3e8f0d20bc8b</id>
-    </Compile>
-    <Compile Include="Module_Usercode\画像比較\確認_猫の画像.cs">
-      <BoundTo>ac81e0c8-6c71-45df-8442-39e463c01cfa</BoundTo>
-      <DependentUpon>確認_猫の画像.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>54c2a0e2-ab32-43c8-88b3-78f4ef2de1f5</id>
-    </Compile>
-    <Compile Include="Module_Usercode\画像比較\確認_猫の画像.UserCode.cs">
-      <BoundTo>ac81e0c8-6c71-45df-8442-39e463c01cfa</BoundTo>
-      <DependentUpon>確認_猫の画像.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>763f4f5f-ecb5-46aa-9e53-a7104486b055</id>
     </Compile>
     <Compile Include="Program.cs">
       <id>530db4a9-c91b-465e-a3a8-81f169a0c810</id>
@@ -1525,10 +1321,6 @@
     <Content Include="UserCode練習.rxtst">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>436f8482-303b-4934-88e4-47c9d3b1176b</id>
-    </Content>
-    <Content Include="Windowsアプリ.rxtst">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <id>d4e41c34-a547-4582-836f-79dc2f004733</id>
     </Content>
     <Content Include="テストケース製造トレーニング.rxtst">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -1986,81 +1778,6 @@
       <id>54f488c2-4910-413c-9c4e-602f6dcad210</id>
       <recordtableid>6803163e-06d2-4b24-b932-06a59784a670</recordtableid>
     </None>
-    <None Include="Module_Demoアプリ\Test database\データソースフィルタ_リスト確認.rxrec">
-      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
-      <id>60f9fe0f-b2e6-4074-9548-5caad02d38f6</id>
-      <recordtableid>29b2f355-814a-456a-be9c-b2df1f0f3dbb</recordtableid>
-    </None>
-    <None Include="Module_Demoアプリ\Test database\操作_情報入力.rxrec">
-      <id>8258a6e0-9ae5-4aad-883b-843879a23d4b</id>
-      <recordtableid>dc590ff6-371b-48f5-8b37-62f8d2fc21a5</recordtableid>
-      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
-    </None>
-    <None Include="Module_Demoアプリ\Test database\確認_登録人数_リスト内容.rxrec">
-      <id>657c16c0-6fbd-4aae-a40f-a51b74cc9252</id>
-      <recordtableid>d9e87ee0-454d-439c-b898-79c9fd7c56be</recordtableid>
-      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
-    </None>
-    <None Include="Module_Demoアプリ\Test database\確認_リスト登録内容.rxrec">
-      <id>3e08f812-ad51-44c4-b6af-739a563fb370</id>
-      <recordtableid>6ea75f8d-a6b2-4ad6-9d4a-102375444813</recordtableid>
-      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
-    </None>
-    <None Include="Module_Demoアプリ\Test database\確認_登録人数.rxrec">
-      <id>76798a81-bf05-4203-8b5d-7dbe68dff135</id>
-      <recordtableid>3bbf86fd-0eb6-4845-920b-4568b4453d5a</recordtableid>
-      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
-    </None>
-    <None Include="Module_Demoアプリ\Test database\確認_登録者リスト.rxrec">
-      <id>7822a384-b66d-422a-846f-19765e2b9308</id>
-      <recordtableid>49f4154d-bd72-4865-8783-0e11349c49b0</recordtableid>
-      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
-    </None>
-    <None Include="Module_Demoアプリ\共通\操作_Test_databaseタブ開く.rxrec">
-      <id>4ffecd6b-2bd6-4eb4-a020-a0c509a72829</id>
-      <recordtableid>886eb196-86bf-4438-9945-62051e054804</recordtableid>
-      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
-    </None>
-    <None Include="Module_Demoアプリ\起動_終了\操作_アプリ終了.rxrec">
-      <id>8197b276-92ee-4a98-abaf-17e43d677275</id>
-      <recordtableid>6d083cb0-ec34-4d13-9087-71ad077bbd4a</recordtableid>
-      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
-    </None>
-    <None Include="Module_Demoアプリ\起動_終了\操作_アプリ起動.rxrec">
-      <id>e11e0641-0626-4a2b-b1e6-acd4ce441a0d</id>
-      <recordtableid>3bddbb4d-3ff8-4f79-b2b8-ca56827d5653</recordtableid>
-      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
-    </None>
-    <None Include="Module_Demoアプリ\Image-based automation\操作_チェックボックス_押下.rxrec">
-      <id>c649e6f5-0ec7-4d05-840a-2390d9537b02</id>
-      <recordtableid>7f9b0c6c-e4a4-4449-956b-a65e3a7662ed</recordtableid>
-      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
-    </None>
-    <None Include="Module_Demoアプリ\Introduction\操作_名前入力.rxrec">
-      <id>d9144df3-f9bd-4f7a-b5aa-0035cb90baf3</id>
-      <recordtableid>b53b77c1-f30a-4494-9590-1e6dcfbf4925</recordtableid>
-      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
-    </None>
-    <None Include="Module_Demoアプリ\Introduction\確認_メッセージ内容.rxrec">
-      <id>73c85b81-83eb-4530-bf39-6061ae2d162a</id>
-      <recordtableid>4c3f8d06-e6bc-4512-9e30-ada239b0bc39</recordtableid>
-      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
-    </None>
-    <None Include="Module_Demoアプリ\共通\操作_Image_basedタブ開く.rxrec">
-      <id>a09afb24-d5ea-40ec-b5f5-97726ea1a82c</id>
-      <recordtableid>202cd949-af45-4eed-9175-fa1dbdef9bc8</recordtableid>
-      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
-    </None>
-    <None Include="Module_Demoアプリ\共通\操作_Introductionタブ開く.rxrec">
-      <id>3d67c7da-5bff-40df-ad03-8c7be96306b1</id>
-      <recordtableid>ea70667f-fd64-4c5b-bd0b-43121621a280</recordtableid>
-      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
-    </None>
-    <None Include="Module_Demoアプリ\共通\操作_UI_elementタブ開く.rxrec">
-      <id>54430323-4959-45eb-8406-769db31303e5</id>
-      <recordtableid>13667a4d-347a-416b-9710-f92a756795ff</recordtableid>
-      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
-    </None>
     <None Include="Module_Usercode\T2_5_チェックボックス.rxrec">
       <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
       <id>e69c40c1-ab8b-4e17-8abc-6c8831967f20</id>
@@ -2116,11 +1833,6 @@
       <id>0e0f25d2-1709-4d22-a8ba-667d5bf4bc60</id>
       <recordtableid>62e7cbb1-8a35-4d7b-b7ce-9c7b7af79621</recordtableid>
     </None>
-    <None Include="Module_Usercode\画像比較\確認_Table領域.rxrec">
-      <id>d40f0117-f9fb-4c4f-bd3f-8d196b2528b6</id>
-      <recordtableid>32dcaa59-3e35-4361-80a8-07c3ae465689</recordtableid>
-      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
-    </None>
     <None Include="Module_Usercode\画像比較\確認_ログアウトボタン.rxrec">
       <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
       <id>3122ff4b-a016-45d8-b2b7-293d613f0735</id>
@@ -2130,11 +1842,6 @@
       <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
       <id>46215ded-9bdb-4452-9b12-f11811ff021b</id>
       <recordtableid>76659325-82e1-4805-b906-077c30110e96</recordtableid>
-    </None>
-    <None Include="Module_Usercode\画像比較\確認_猫の画像.rxrec">
-      <id>ac81e0c8-6c71-45df-8442-39e463c01cfa</id>
-      <recordtableid>66b9d8fd-692a-408f-b4bb-c9ddef3bfb54</recordtableid>
-      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
     </None>
     <None Include="Repository\Hotel_Planisphere.rximg">
       <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
@@ -2211,21 +1918,6 @@
     <Folder Include="Module\退会処理">
       <id>7b0d4937-c915-45c6-abf1-67aee5521813</id>
     </Folder>
-    <Folder Include="Module_Demoアプリ\Test database">
-      <id>e590f8a3-e66e-4600-a40d-eba33bb91493</id>
-    </Folder>
-    <Folder Include="Module_Demoアプリ\起動_終了">
-      <id>2e72d7f7-6dce-4e7a-9204-89bde34933d9</id>
-    </Folder>
-    <Folder Include="Module_Demoアプリ\Image-based automation">
-      <id>47ecabff-4150-4433-b6ec-f2f345f28c58</id>
-    </Folder>
-    <Folder Include="Module_Demoアプリ\Introduction">
-      <id>5f4e741f-dd08-4d8c-b640-442373213618</id>
-    </Folder>
-    <Folder Include="Module_Demoアプリ\共通">
-      <id>465cfb75-5093-4cef-a059-b4ae250a99e7</id>
-    </Folder>
     <Folder Include="Module_Usercode\画像比較">
       <id>269dd397-193e-478c-b0a5-c1153766afff</id>
     </Folder>
@@ -2240,9 +1932,6 @@
     </Folder>
     <Folder Include="Module_Usercode">
       <id>f24781ae-3688-46f4-9f12-b0f077382b90</id>
-    </Folder>
-    <Folder Include="Module_Demoアプリ">
-      <id>c40658e8-217e-4645-8b46-5938dbce952f</id>
     </Folder>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
