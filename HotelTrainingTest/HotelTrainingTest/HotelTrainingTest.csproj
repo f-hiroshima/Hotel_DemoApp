@@ -1501,12 +1501,6 @@
     <Compile Include="Program.cs">
       <id>530db4a9-c91b-465e-a3a8-81f169a0c810</id>
     </Compile>
-    <Compile Include="Repository\DemoApp.cs">
-      <BoundTo>a1ef02d6-730f-40aa-ac50-1d7d9942d7f7</BoundTo>
-      <DependentUpon>DemoApp.rxrep</DependentUpon>
-      <RepositoryCode>true</RepositoryCode>
-      <id>e4c4ce1b-5a22-4f57-b7b9-95a6c36a2b1f</id>
-    </Compile>
     <Compile Include="Repository\Hotel_Planisphere.cs">
       <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
       <DependentUpon>Hotel_Planisphere.rxrep</DependentUpon>
@@ -1957,7 +1951,7 @@
     <None Include="Module\画像比較\確認_Table領域.rxrec">
       <id>d40f0117-f9fb-4c4f-bd3f-8d196b2528b6</id>
       <recordtableid>32dcaa59-3e35-4361-80a8-07c3ae465689</recordtableid>
-      <BoundTo>a1ef02d6-730f-40aa-ac50-1d7d9942d7f7</BoundTo>
+      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
     </None>
     <None Include="Module\画像比較\確認_ログアウトボタン.rxrec">
       <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
@@ -1972,7 +1966,7 @@
     <None Include="Module\画像比較\確認_猫の画像.rxrec">
       <id>ac81e0c8-6c71-45df-8442-39e463c01cfa</id>
       <recordtableid>66b9d8fd-692a-408f-b4bb-c9ddef3bfb54</recordtableid>
-      <BoundTo>a1ef02d6-730f-40aa-ac50-1d7d9942d7f7</BoundTo>
+      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
     </None>
     <None Include="Module\追加課題\操作_FileDownload_押下.rxrec">
       <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
@@ -2042,72 +2036,72 @@
     <None Include="Module_Demoアプリ\Test database\操作_情報入力.rxrec">
       <id>8258a6e0-9ae5-4aad-883b-843879a23d4b</id>
       <recordtableid>dc590ff6-371b-48f5-8b37-62f8d2fc21a5</recordtableid>
-      <BoundTo>a1ef02d6-730f-40aa-ac50-1d7d9942d7f7</BoundTo>
+      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
     </None>
     <None Include="Module_Demoアプリ\Test database\確認_登録人数_リスト内容.rxrec">
       <id>657c16c0-6fbd-4aae-a40f-a51b74cc9252</id>
       <recordtableid>d9e87ee0-454d-439c-b898-79c9fd7c56be</recordtableid>
-      <BoundTo>a1ef02d6-730f-40aa-ac50-1d7d9942d7f7</BoundTo>
+      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
     </None>
     <None Include="Module_Demoアプリ\Test database\確認_リスト登録内容.rxrec">
       <id>3e08f812-ad51-44c4-b6af-739a563fb370</id>
       <recordtableid>6ea75f8d-a6b2-4ad6-9d4a-102375444813</recordtableid>
-      <BoundTo>a1ef02d6-730f-40aa-ac50-1d7d9942d7f7</BoundTo>
+      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
     </None>
     <None Include="Module_Demoアプリ\Test database\確認_登録人数.rxrec">
       <id>76798a81-bf05-4203-8b5d-7dbe68dff135</id>
       <recordtableid>3bbf86fd-0eb6-4845-920b-4568b4453d5a</recordtableid>
-      <BoundTo>a1ef02d6-730f-40aa-ac50-1d7d9942d7f7</BoundTo>
+      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
     </None>
     <None Include="Module_Demoアプリ\Test database\確認_登録者リスト.rxrec">
       <id>7822a384-b66d-422a-846f-19765e2b9308</id>
       <recordtableid>49f4154d-bd72-4865-8783-0e11349c49b0</recordtableid>
-      <BoundTo>a1ef02d6-730f-40aa-ac50-1d7d9942d7f7</BoundTo>
+      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
     </None>
     <None Include="Module_Demoアプリ\共通\操作_Test_databaseタブ開く.rxrec">
       <id>4ffecd6b-2bd6-4eb4-a020-a0c509a72829</id>
       <recordtableid>886eb196-86bf-4438-9945-62051e054804</recordtableid>
-      <BoundTo>a1ef02d6-730f-40aa-ac50-1d7d9942d7f7</BoundTo>
+      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
     </None>
     <None Include="Module_Demoアプリ\起動_終了\操作_アプリ終了.rxrec">
       <id>8197b276-92ee-4a98-abaf-17e43d677275</id>
       <recordtableid>6d083cb0-ec34-4d13-9087-71ad077bbd4a</recordtableid>
-      <BoundTo>a1ef02d6-730f-40aa-ac50-1d7d9942d7f7</BoundTo>
+      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
     </None>
     <None Include="Module_Demoアプリ\起動_終了\操作_アプリ起動.rxrec">
       <id>e11e0641-0626-4a2b-b1e6-acd4ce441a0d</id>
       <recordtableid>3bddbb4d-3ff8-4f79-b2b8-ca56827d5653</recordtableid>
-      <BoundTo>a1ef02d6-730f-40aa-ac50-1d7d9942d7f7</BoundTo>
+      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
     </None>
     <None Include="Module_Demoアプリ\Image-based automation\操作_チェックボックス_押下.rxrec">
       <id>c649e6f5-0ec7-4d05-840a-2390d9537b02</id>
       <recordtableid>7f9b0c6c-e4a4-4449-956b-a65e3a7662ed</recordtableid>
-      <BoundTo>a1ef02d6-730f-40aa-ac50-1d7d9942d7f7</BoundTo>
+      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
     </None>
     <None Include="Module_Demoアプリ\Introduction\操作_名前入力.rxrec">
       <id>d9144df3-f9bd-4f7a-b5aa-0035cb90baf3</id>
       <recordtableid>b53b77c1-f30a-4494-9590-1e6dcfbf4925</recordtableid>
-      <BoundTo>a1ef02d6-730f-40aa-ac50-1d7d9942d7f7</BoundTo>
+      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
     </None>
     <None Include="Module_Demoアプリ\Introduction\確認_メッセージ内容.rxrec">
       <id>73c85b81-83eb-4530-bf39-6061ae2d162a</id>
       <recordtableid>4c3f8d06-e6bc-4512-9e30-ada239b0bc39</recordtableid>
-      <BoundTo>a1ef02d6-730f-40aa-ac50-1d7d9942d7f7</BoundTo>
+      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
     </None>
     <None Include="Module_Demoアプリ\共通\操作_Image_basedタブ開く.rxrec">
       <id>a09afb24-d5ea-40ec-b5f5-97726ea1a82c</id>
       <recordtableid>202cd949-af45-4eed-9175-fa1dbdef9bc8</recordtableid>
-      <BoundTo>a1ef02d6-730f-40aa-ac50-1d7d9942d7f7</BoundTo>
+      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
     </None>
     <None Include="Module_Demoアプリ\共通\操作_Introductionタブ開く.rxrec">
       <id>3d67c7da-5bff-40df-ad03-8c7be96306b1</id>
       <recordtableid>ea70667f-fd64-4c5b-bd0b-43121621a280</recordtableid>
-      <BoundTo>a1ef02d6-730f-40aa-ac50-1d7d9942d7f7</BoundTo>
+      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
     </None>
     <None Include="Module_Demoアプリ\共通\操作_UI_elementタブ開く.rxrec">
       <id>54430323-4959-45eb-8406-769db31303e5</id>
       <recordtableid>13667a4d-347a-416b-9710-f92a756795ff</recordtableid>
-      <BoundTo>a1ef02d6-730f-40aa-ac50-1d7d9942d7f7</BoundTo>
+      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
     </None>
     <None Include="Module_Usercode\T2_5_チェックボックス.rxrec">
       <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
@@ -2158,17 +2152,6 @@
       <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
       <id>662af01f-535e-49cd-b234-1136b7d1f03a</id>
       <recordtableid>c923d4ab-3c68-48f3-83fc-d206548a4ac3</recordtableid>
-    </None>
-    <None Include="Repository\DemoApp.rximg">
-      <BoundTo>a1ef02d6-730f-40aa-ac50-1d7d9942d7f7</BoundTo>
-      <DependentUpon>DemoApp.rxrep</DependentUpon>
-      <imageblob>true</imageblob>
-      <id>72e737f1-93f0-4d22-955b-d1d4d0682c00</id>
-    </None>
-    <None Include="Repository\DemoApp.rxrep">
-      <id>a1ef02d6-730f-40aa-ac50-1d7d9942d7f7</id>
-      <repoid>0bb3ef35-db9d-4b24-be0a-7700a3db1b21</repoid>
-      <reporootid>8110013c-c8c0-4c04-97a3-32de2ff8432a</reporootid>
     </None>
     <None Include="Repository\Hotel_Planisphere.rximg">
       <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>

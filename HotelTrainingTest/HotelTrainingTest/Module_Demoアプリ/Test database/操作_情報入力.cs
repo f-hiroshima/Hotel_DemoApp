@@ -30,9 +30,9 @@ namespace HotelTrainingTest.Module_Demoアプリ.Test_database
     public partial class 操作_情報入力 : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the global::HotelTrainingTest.Repository.DemoApp repository.
+        /// Holds an instance of the global::HotelTrainingTest.Repository.Hotel_Planisphere repository.
         /// </summary>
-        public static global::HotelTrainingTest.Repository.DemoApp repo = global::HotelTrainingTest.Repository.DemoApp.Instance;
+        public static global::HotelTrainingTest.Repository.Hotel_Planisphere repo = global::HotelTrainingTest.Repository.Hotel_Planisphere.Instance;
 
         static 操作_情報入力 instance = new 操作_情報入力();
 

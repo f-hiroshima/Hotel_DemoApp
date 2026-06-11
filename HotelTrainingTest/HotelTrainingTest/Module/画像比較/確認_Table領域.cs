@@ -30,9 +30,9 @@ namespace HotelTrainingTest.Module.画像比較
     public partial class 確認_Table領域 : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the global::HotelTrainingTest.Repository.DemoApp repository.
+        /// Holds an instance of the global::HotelTrainingTest.Repository.Hotel_Planisphere repository.
         /// </summary>
-        public static global::HotelTrainingTest.Repository.DemoApp repo = global::HotelTrainingTest.Repository.DemoApp.Instance;
+        public static global::HotelTrainingTest.Repository.Hotel_Planisphere repo = global::HotelTrainingTest.Repository.Hotel_Planisphere.Instance;
 
         static 確認_Table領域 instance = new 確認_Table領域();
 
@@ -160,7 +160,7 @@ namespace HotelTrainingTest.Module.画像比較
         /// <summary>
         /// Gets or sets the value of variable rowIndex.
         /// </summary>
-        [TestVariable("cc3a9758-5575-4028-a8bf-2d17d8b30c6f")]
+        [TestVariable("3ba6d22c-db6c-4b68-8a7d-a9909f8c81d4")]
         public string rowIndex
         {
             get { return repo.rowIndex; }
@@ -170,7 +170,7 @@ namespace HotelTrainingTest.Module.画像比較
         /// <summary>
         /// Gets or sets the value of variable colIndex.
         /// </summary>
-        [TestVariable("b6065002-ab43-4bff-beea-aafbdf8a75eb")]
+        [TestVariable("a7e7cbec-5c50-45a6-9942-0e6414418d5e")]
         public string colIndex
         {
             get { return repo.colIndex; }

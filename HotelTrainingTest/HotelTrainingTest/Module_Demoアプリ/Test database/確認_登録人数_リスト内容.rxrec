@@ -171,15 +171,15 @@ mode="Global">
 		</WaitForRecordItem>
 	</recorditems>
 	<repository
-	id="0bb3ef35-db9d-4b24-be0a-7700a3db1b21"
-	name="DemoApp"
-	relativepath="..\..\Repository\DemoApp.rxrep">
+	id="979f71fe-6146-4365-ab48-1098abc4dd4a"
+	name="Hotel_Planisphere"
+	relativepath="..\..\Repository\Hotel_Planisphere.rxrep">
 		<codegen
-		classname="DemoApp"
+		classname="Hotel_Planisphere"
 		namespace="HotelTrainingTest.Repository">
 		</codegen>
 		<rootfolder
-		id="8110013c-c8c0-4c04-97a3-32de2ff8432a"
+		id="69c7490d-d614-4ebc-96f1-76f669a004c7"
 		name="_rootdummy_">
 		</rootfolder>
 	</repository>

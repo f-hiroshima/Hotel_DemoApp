@@ -30,9 +30,9 @@ namespace HotelTrainingTest.Module_Demoアプリ.Test_database
     public partial class 確認_リスト登録内容 : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the global::HotelTrainingTest.Repository.DemoApp repository.
+        /// Holds an instance of the global::HotelTrainingTest.Repository.Hotel_Planisphere repository.
         /// </summary>
-        public static global::HotelTrainingTest.Repository.DemoApp repo = global::HotelTrainingTest.Repository.DemoApp.Instance;
+        public static global::HotelTrainingTest.Repository.Hotel_Planisphere repo = global::HotelTrainingTest.Repository.Hotel_Planisphere.Instance;
 
         static 確認_リスト登録内容 instance = new 確認_リスト登録内容();
 
@@ -69,7 +69,7 @@ namespace HotelTrainingTest.Module_Demoアプリ.Test_database
         /// <summary>
         /// Gets or sets the value of variable numberOfEntries.
         /// </summary>
-        [TestVariable("5240b5da-d0e5-4aba-b82a-81a42cec79a2")]
+        [TestVariable("b479760e-30a2-4858-acba-f19e01086fa5")]
         public string numberOfEntries
         {
             get { return repo.numberOfEntries; }

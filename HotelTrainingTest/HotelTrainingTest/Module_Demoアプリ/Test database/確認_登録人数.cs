@@ -30,9 +30,9 @@ namespace HotelTrainingTest.Module_Demoアプリ.Test_database
     public partial class 確認_登録人数 : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the global::HotelTrainingTest.Repository.DemoApp repository.
+        /// Holds an instance of the global::HotelTrainingTest.Repository.Hotel_Planisphere repository.
         /// </summary>
-        public static global::HotelTrainingTest.Repository.DemoApp repo = global::HotelTrainingTest.Repository.DemoApp.Instance;
+        public static global::HotelTrainingTest.Repository.Hotel_Planisphere repo = global::HotelTrainingTest.Repository.Hotel_Planisphere.Instance;
 
         static 確認_登録人数 instance = new 確認_登録人数();
 
