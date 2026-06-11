@@ -1,40 +1,5 @@
 [
   {
-    "Enabled": "False",
-    "TestSuite": "Practice",
-    "RunConfig": "TestRun"
-  },
-  {
-    "Enabled": "False",
-    "TestSuite": "Practice2",
-    "RunConfig": "TestRun"
-  },
-  {
-    "Enabled": "True",
-    "TestSuite": "テストケース製造トレーニング",
-    "RunConfig": "TestRun"
-  },
-  {
-    "Enabled": "True",
-    "TestSuite": "UserCode練習",
-    "RunConfig": "TestRun"
-  },
-  {
-    "Enabled": "True",
-    "TestSuite": "T_01_ログイン",
-    "RunConfig": "TestRun"
-  },
-  {
-    "Enabled": "True",
-    "TestSuite": "T_02_会員登録",
-    "RunConfig": "TestRun"
-  },
-  {
-    "Enabled": "True",
-    "TestSuite": "T_03_宿泊予約",
-    "RunConfig": "TestRun"
-  },
-  {
     "Enabled": "True",
     "TestSuite": "画像比較トレーニング",
     "RunConfig": "TestRun"
