@@ -246,6 +246,17 @@ name="Hotel_Planisphere">
 						/form[@controlname='RxMainFrame']//tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabUpload']
 					</basepath>
 				</folder>
+				<folder
+				capname="tabpage"
+				id="64e45e89-52a9-417c-9114-db1422364546"
+				isrooted="True"
+				name="Object_identificationタブ"
+				searchtimeout="30000ms"
+				usecache="False">
+					<basepath>
+						/form[@controlname='RxMainFrame']//tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabObject']
+					</basepath>
+				</folder>
 				<item
 				capname="tabpage"
 				id="bafed7c5-ca11-4943-af03-4d51571b012b"

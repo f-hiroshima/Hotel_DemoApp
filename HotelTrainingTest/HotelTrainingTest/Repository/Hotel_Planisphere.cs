@@ -287,6 +287,7 @@ namespace HotelTrainingTest.Repository
             Hotel_PlanisphereFolders.Image_basedタブFolder _image_basedタブ;
             Hotel_PlanisphereFolders.UI_elementタブFolder _ui_elementタブ;
             Hotel_PlanisphereFolders.UploadタブFolder _uploadタブ;
+            Hotel_PlanisphereFolders.Object_identificationタブFolder _object_identificationタブ;
             RepoItemInfo _tab_introductionInfo;
             RepoItemInfo _tab_test_databaseInfo;
             RepoItemInfo _tab_image_based_automationInfo;
@@ -306,6 +307,7 @@ namespace HotelTrainingTest.Repository
                 _image_basedタブ = new Hotel_PlanisphereFolders.Image_basedタブFolder(this);
                 _ui_elementタブ = new Hotel_PlanisphereFolders.UI_elementタブFolder(this);
                 _uploadタブ = new Hotel_PlanisphereFolders.UploadタブFolder(this);
+                _object_identificationタブ = new Hotel_PlanisphereFolders.Object_identificationタブFolder(this);
                 _tab_introductionInfo = new RepoItemInfo(this, "tab_Introduction", "tabpage[@accessiblename='Introduction']", "", 30000, null, "bafed7c5-ca11-4943-af03-4d51571b012b");
                 _tab_test_databaseInfo = new RepoItemInfo(this, "tab_Test_database", "tabpage[@accessiblename='Test database']", "", 30000, null, "d6e80eca-ae95-4351-aebb-e60e46ffd362");
                 _tab_image_based_automationInfo = new RepoItemInfo(this, "tab_Image_based_automation", "tabpage[@accessiblename='Image-based automation']", "", 30000, null, "29f5c698-f66f-4ac0-b516-968163f09908");
@@ -550,6 +552,15 @@ namespace HotelTrainingTest.Repository
             public virtual Hotel_PlanisphereFolders.UploadタブFolder Uploadタブ
             {
                 get { return _uploadタブ; }
+            }
+
+            /// <summary>
+            /// The Object_identificationタブ folder.
+            /// </summary>
+            [RepositoryFolder("64e45e89-52a9-417c-9114-db1422364546")]
+            public virtual Hotel_PlanisphereFolders.Object_identificationタブFolder Object_identificationタブ
+            {
+                get { return _object_identificationタブ; }
             }
         }
 
@@ -1243,6 +1254,46 @@ namespace HotelTrainingTest.Repository
                 get
                 {
                     return _label_progresspercentInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The Object_identificationタブFolder folder.
+        /// </summary>
+        [RepositoryFolder("64e45e89-52a9-417c-9114-db1422364546")]
+        public partial class Object_identificationタブFolder : RepoGenBaseFolder
+        {
+
+            /// <summary>
+            /// Creates a new Object_identificationタブ  folder.
+            /// </summary>
+            public Object_identificationタブFolder(RepoGenBaseFolder parentFolder) :
+                    base("Object_identificationタブ", "tabpage[@controlname='RxTabObject']", parentFolder, 30000, null, false, "64e45e89-52a9-417c-9114-db1422364546", "")
+            {
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("64e45e89-52a9-417c-9114-db1422364546")]
+            public virtual Ranorex.TabPage Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.TabPage>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("64e45e89-52a9-417c-9114-db1422364546")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
                 }
             }
         }

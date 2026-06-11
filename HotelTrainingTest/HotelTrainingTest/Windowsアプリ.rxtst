@@ -3,6 +3,16 @@
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
+			id="02c216ed-5416-44f1-be67-b0e0ec68170d"
+			name="操作_Obect_identificationタブ開く"
+			ref="7bdb2895-e7d5-4dfb-b923-4a4eab0b2fdc"
+			type="Recording">
+			</testmodule>
+			<teardown
+			id="059d4c2d-cfd9-4424-8433-180b1090462c"
+			name="teardown">
+			</teardown>
+			<testmodule
 			id="0a047723-3ec2-4bba-8a46-2d359498b5f1"
 			name="操作_アプリ起動"
 			ref="3bddbb4d-3ff8-4f79-b2b8-ca56827d5653"
@@ -19,10 +29,16 @@
 			name="Windowsアプリ"
 			reportlevel="Info;20">
 			</testcase>
+			<testmodule
+			id="15fd58ab-7c45-4ce1-b635-583774b4d6a2"
+			name="操作_Image_basedタブ開く"
+			ref="202cd949-af45-4eed-9175-fa1dbdef9bc8"
+			type="Recording">
+			</testmodule>
 			<testsuite
 			ExportColumnList="None"
 			ReportTime="RelativeToTestSuiteStartTime"
-			SelectedActions="Action|Application|Data|Delay|Device orientation|Get Value|Information|Invoke action|Keyboard|Mobile|Module|Mouse|Section|Set value|Test|Touch gestures|Touch|User|Validation|Wait|Website|"
+			SelectedActions="All"
 			TracingScreenshotMode="Foreground"
 			TracingScreenshotQuality="40"
 			VideoBitrate="2000"
@@ -60,6 +76,18 @@
 			id="2b409e24-fd6c-496f-a385-5c6858b50083"
 			name="setup">
 			</setup>
+			<testmodule
+			id="33a3f1e9-6a8e-4d31-8ee5-788e01f3acad"
+			name="操作_UI_elementタブ開く"
+			ref="13667a4d-347a-416b-9710-f92a756795ff"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="3cbb8242-9326-443d-bf63-13bee34e7381"
+			name="操作_アプリ起動"
+			ref="3bddbb4d-3ff8-4f79-b2b8-ca56827d5653"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="41e54b45-7142-4739-aed4-52c5db627237"
 			name="操作_アプリ終了"
@@ -113,6 +141,16 @@
 					</var>
 				</missingdatabinding>
 			</testmodule>
+			<testmodule
+			id="549d453c-f0dc-4279-881c-e731245d0a16"
+			name="操作_Test_databaseタブ開く"
+			ref="886eb196-86bf-4438-9945-62051e054804"
+			type="Recording">
+			</testmodule>
+			<setup
+			id="59bf21b1-2e53-4cf9-a0f6-12786d33033c"
+			name="setup">
+			</setup>
 			<smartfoldernode
 			datasource="T03_4_TestDatabase"
 			id="5da447c8-5170-4d88-9f9e-1f16ba4a2c5d"
@@ -135,6 +173,10 @@
 					</param>
 				</parameters>
 			</smartfoldernode>
+			<testcase
+			id="61b377cb-d5ea-4666-98a4-dac2c538e9f0"
+			name="T_EX_タブ切替">
+			</testcase>
 			<testcase
 			datasource="ImageTestBase"
 			id="623a0bf4-1f66-45a4-a73d-68c7a0626e1c"
@@ -174,10 +216,20 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			id="66912625-08df-49da-9b5b-bec4b70a3354"
+			name="main">
+			</smartfoldernode>
 			<teardown
 			id="690633c5-a65a-45fb-a9d4-c641ca448124"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="7914ae90-c08c-439f-aab2-3046bcee89f5"
+			name="操作_Introductionタブ開く"
+			ref="ea70667f-fd64-4c5b-bd0b-43121621a280"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="7cccbde4-45bc-4125-ae5e-de64ae02b913"
 			name="操作_アプリ起動"
@@ -276,6 +328,12 @@
 					variablename="gendetType">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="8fd449f3-02f5-4179-a1c0-2b5cb70b6763"
+			name="操作_アプリ終了"
+			ref="6d083cb0-ec34-4d13-9087-71ad077bbd4a"
+			type="Recording">
 			</testmodule>
 			<smartfoldernode
 			datasource="T02_TestDatabase"
@@ -415,6 +473,50 @@
 					variablename="checkMessage">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="ca8f6ace-9fa7-4f13-baf4-f7169181a9c0"
+			name="操作_エビデンスフォルダ作成"
+			ref="62e7cbb1-8a35-4d7b-b7ce-9c7b7af79621"
+			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="baseEvidenceFolderPath"
+					datasourceid="6be90997-37ba-4438-9e38-5d267e827f8d"
+					variableid="ee09c9d9-abf0-49ea-8f88-b98d1c2fb243"
+					variablename="baseEvidenceFolderPath">
+					</var>
+					<var
+					dataname="baseResultFolderPath"
+					datasourceid="6be90997-37ba-4438-9e38-5d267e827f8d"
+					variableid="2a1e289b-a969-4904-ae19-44542d78b033"
+					variablename="baseResultFolderPath">
+					</var>
+					<var
+					dataname="baseTargetFolderPath"
+					datasourceid="6be90997-37ba-4438-9e38-5d267e827f8d"
+					variableid="8d01f429-8171-414d-b834-4df1d7867424"
+					variablename="baseTargetFolderPath">
+					</var>
+					<var
+					dataname="evidenceFolderPath"
+					datasourceid="623a0bf4-1f66-45a4-a73d-68c7a0626e1c"
+					variableid="6eac5a12-203a-4117-9101-e4fb855563be"
+					variablename="evidenceFolderPath">
+					</var>
+					<var
+					dataname="resultFolderPath"
+					datasourceid="623a0bf4-1f66-45a4-a73d-68c7a0626e1c"
+					variableid="c9c857f6-fe42-4cee-a70a-b9030518031a"
+					variablename="resultFolderPath">
+					</var>
+					<var
+					dataname="targetFolderPath"
+					datasourceid="623a0bf4-1f66-45a4-a73d-68c7a0626e1c"
+					variableid="acdf971f-147f-445d-8046-4b39a12b907d"
+					variablename="targetFolderPath">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="d34b9eb2-24cf-4fd0-b3d6-407ca4fa2043"
@@ -565,6 +667,54 @@
 						name="teardown">
 							<testmodule
 							id="e95cdcae-a967-49bf-90d4-33104f66ff2e"
+							name="操作_アプリ終了">
+							</testmodule>
+						</teardown>
+					</testcase>
+					<testcase
+					id="61b377cb-d5ea-4666-98a4-dac2c538e9f0"
+					name="T_EX_タブ切替">
+						<setup
+						id="59bf21b1-2e53-4cf9-a0f6-12786d33033c"
+						name="setup">
+							<testmodule
+							id="ca8f6ace-9fa7-4f13-baf4-f7169181a9c0"
+							name="操作_エビデンスフォルダ作成">
+							</testmodule>
+							<testmodule
+							id="3cbb8242-9326-443d-bf63-13bee34e7381"
+							name="操作_アプリ起動">
+							</testmodule>
+						</setup>
+						<smartfoldernode
+						id="66912625-08df-49da-9b5b-bec4b70a3354"
+						name="main">
+							<testmodule
+							id="02c216ed-5416-44f1-be67-b0e0ec68170d"
+							name="操作_Obect_identificationタブ開く">
+							</testmodule>
+							<testmodule
+							id="549d453c-f0dc-4279-881c-e731245d0a16"
+							name="操作_Test_databaseタブ開く">
+							</testmodule>
+							<testmodule
+							id="33a3f1e9-6a8e-4d31-8ee5-788e01f3acad"
+							name="操作_UI_elementタブ開く">
+							</testmodule>
+							<testmodule
+							id="15fd58ab-7c45-4ce1-b635-583774b4d6a2"
+							name="操作_Image_basedタブ開く">
+							</testmodule>
+							<testmodule
+							id="7914ae90-c08c-439f-aab2-3046bcee89f5"
+							name="操作_Introductionタブ開く">
+							</testmodule>
+						</smartfoldernode>
+						<teardown
+						id="059d4c2d-cfd9-4424-8433-180b1090462c"
+						name="teardown">
+							<testmodule
+							id="8fd449f3-02f5-4179-a1c0-2b5cb70b6763"
 							name="操作_アプリ終了">
 							</testmodule>
 						</teardown>

@@ -154,6 +154,18 @@
       <UserCode>true</UserCode>
       <id>64a5c197-32e6-4ab2-9b5b-a5428acf1498</id>
     </Compile>
+    <Compile Include="Module_Demoアプリ\共通\操作_Obect_identificationタブ開く.cs">
+      <BoundTo>93d700d0-dbca-4759-b670-d117e4b688bb</BoundTo>
+      <DependentUpon>操作_Obect_identificationタブ開く.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e5650a7b-6bcd-4706-b0d3-02a55ffd69d2</id>
+    </Compile>
+    <Compile Include="Module_Demoアプリ\共通\操作_Obect_identificationタブ開く.UserCode.cs">
+      <BoundTo>93d700d0-dbca-4759-b670-d117e4b688bb</BoundTo>
+      <DependentUpon>操作_Obect_identificationタブ開く.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c7e0418f-2646-405f-aca6-457a43336937</id>
+    </Compile>
     <Compile Include="Module_Demoアプリ\共通\操作_Test_databaseタブ開く.cs">
       <BoundTo>4ffecd6b-2bd6-4eb4-a020-a0c509a72829</BoundTo>
       <DependentUpon>操作_Test_databaseタブ開く.rxrec</DependentUpon>
@@ -368,6 +380,11 @@
       <id>7822a384-b66d-422a-846f-19765e2b9308</id>
       <recordtableid>49f4154d-bd72-4865-8783-0e11349c49b0</recordtableid>
       <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
+    </None>
+    <None Include="Module_Demoアプリ\共通\操作_Obect_identificationタブ開く.rxrec">
+      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
+      <id>93d700d0-dbca-4759-b670-d117e4b688bb</id>
+      <recordtableid>7bdb2895-e7d5-4dfb-b923-4a4eab0b2fdc</recordtableid>
     </None>
     <None Include="Module_Demoアプリ\共通\操作_Test_databaseタブ開く.rxrec">
       <id>4ffecd6b-2bd6-4eb4-a020-a0c509a72829</id>
