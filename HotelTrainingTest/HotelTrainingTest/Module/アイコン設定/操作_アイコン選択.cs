@@ -126,16 +126,16 @@ namespace HotelTrainingTest.Module.アイコン設定
             fullpath = UserCode.UserCodeCollection.PathCombine(folderpath, filename);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to '$fullpath' on item 'ダイアログ_ファイル選択_アイコン設定.textbox_ファイル名'.", repo.ダイアログ_ファイル選択_アイコン設定.textbox_ファイル名Info, new RecordItemIndex(3));
-            repo.ダイアログ_ファイル選択_アイコン設定.textbox_ファイル名.Element.SetAttributeValue("Text", fullpath);
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to '$fullpath' on item 'Hotelサイト.ダイアログ_ファイル選択_アイコン設定.textbox_ファイル名'.", repo.Hotelサイト.ダイアログ_ファイル選択_アイコン設定.textbox_ファイル名Info, new RecordItemIndex(3));
+            repo.Hotelサイト.ダイアログ_ファイル選択_アイコン設定.textbox_ファイル名.Element.SetAttributeValue("Text", fullpath);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ダイアログ_ファイル選択_アイコン設定.button_開く' at Center.", repo.ダイアログ_ファイル選択_アイコン設定.button_開くInfo, new RecordItemIndex(4));
-            repo.ダイアログ_ファイル選択_アイコン設定.button_開く.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Hotelサイト.ダイアログ_ファイル選択_アイコン設定.button_開く' at Center.", repo.Hotelサイト.ダイアログ_ファイル選択_アイコン設定.button_開くInfo, new RecordItemIndex(4));
+            repo.Hotelサイト.ダイアログ_ファイル選択_アイコン設定.button_開く.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to not exist. Associated repository item: 'ダイアログ_ファイル選択_アイコン設定'", repo.ダイアログ_ファイル選択_アイコン設定.SelfInfo, new ActionTimeout(10000), new RecordItemIndex(5));
-            repo.ダイアログ_ファイル選択_アイコン設定.SelfInfo.WaitForNotExists(10000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to not exist. Associated repository item: 'Hotelサイト.ダイアログ_ファイル選択_アイコン設定'", repo.Hotelサイト.ダイアログ_ファイル選択_アイコン設定.SelfInfo, new ActionTimeout(10000), new RecordItemIndex(5));
+            repo.Hotelサイト.ダイアログ_ファイル選択_アイコン設定.SelfInfo.WaitForNotExists(10000);
             
         }
 

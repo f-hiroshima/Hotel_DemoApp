@@ -80,8 +80,8 @@ namespace HotelTrainingTest.Module.退会処理
             Init();
 
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating Exists on item 'Chrome_HOTEL_PLANISPHERE.dialog_退会確認'.", repo.Chrome_HOTEL_PLANISPHERE.dialog_退会確認Info, new RecordItemIndex(0));
-                Validate.Exists(repo.Chrome_HOTEL_PLANISPHERE.dialog_退会確認Info, null, false);
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating Exists on item 'Hotelサイト.Chrome_HOTEL_PLANISPHERE.dialog_退会確認'.", repo.Hotelサイト.Chrome_HOTEL_PLANISPHERE.dialog_退会確認Info, new RecordItemIndex(0));
+                Validate.Exists(repo.Hotelサイト.Chrome_HOTEL_PLANISPHERE.dialog_退会確認Info, null, false);
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             

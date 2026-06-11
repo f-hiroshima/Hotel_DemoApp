@@ -203,15 +203,15 @@ namespace HotelTrainingTest.Module.追加課題
             repo.追加課題_ファイルダウンロード.link_任意のファイル.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to exist. Associated repository item: 'ダイアログ_名前を付けて保存'", repo.ダイアログ_名前を付けて保存.SelfInfo, new ActionTimeout(5000), new RecordItemIndex(3));
-            repo.ダイアログ_名前を付けて保存.SelfInfo.WaitForExists(5000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to exist. Associated repository item: 'Hotelサイト.ダイアログ_名前を付けて保存'", repo.Hotelサイト.ダイアログ_名前を付けて保存.SelfInfo, new ActionTimeout(5000), new RecordItemIndex(3));
+            repo.Hotelサイト.ダイアログ_名前を付けて保存.SelfInfo.WaitForExists(5000);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to '$evidenceFileName' on item 'ダイアログ_名前を付けて保存.textbox_ファイル名'.", repo.ダイアログ_名前を付けて保存.textbox_ファイル名Info, new RecordItemIndex(4));
-            repo.ダイアログ_名前を付けて保存.textbox_ファイル名.Element.SetAttributeValue("Text", evidenceFileName);
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to '$evidenceFileName' on item 'Hotelサイト.ダイアログ_名前を付けて保存.textbox_ファイル名'.", repo.Hotelサイト.ダイアログ_名前を付けて保存.textbox_ファイル名Info, new RecordItemIndex(4));
+            repo.Hotelサイト.ダイアログ_名前を付けて保存.textbox_ファイル名.Element.SetAttributeValue("Text", evidenceFileName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ダイアログ_名前を付けて保存.button_保存' at Center.", repo.ダイアログ_名前を付けて保存.button_保存Info, new RecordItemIndex(5));
-            repo.ダイアログ_名前を付けて保存.button_保存.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Hotelサイト.ダイアログ_名前を付けて保存.button_保存' at Center.", repo.Hotelサイト.ダイアログ_名前を付けて保存.button_保存Info, new RecordItemIndex(5));
+            repo.Hotelサイト.ダイアログ_名前を付けて保存.button_保存.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded('5000ms') on item '追加課題_ファイルダウンロード'.", repo.追加課題_ファイルダウンロード.SelfInfo, new RecordItemIndex(6));

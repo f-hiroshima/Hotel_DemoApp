@@ -13,104 +13,6 @@ name="Hotel_Planisphere">
 	searchtimeout="0ms"
 	usecache="False">
 		<appfolder
-		capname="form"
-		id="68737fad-c4d9-4514-8858-393fd843b82c"
-		isrooted="True"
-		name="Chrome_HOTEL_PLANISPHERE"
-		searchtimeout="30000ms"
-		usecache="False">
-			<item
-			capname="form"
-			id="6ae354c5-734d-4013-bc46-3441c3d84b24"
-			name="dialog_退会確認"
-			robustPath="/form[@title>'マイページ | HOTEL PLANISPHERE']/element"
-			searchtimeout="30000ms">
-				/form[@title&gt;'&#12510;&#12452;&#12506;&#12540;&#12472; | HOTEL PLANISPHERE']//form[@accessibledescription='&#36864;&#20250;&#12377;&#12427;&#12392;&#20840;&#12390;&#12398;&#24773;&#22577;&#12364;&#21066;&#38500;&#12373;&#12428;&#12414;&#12377;&#12290;&#12424;&#12429;&#12375;&#12356;&#12391;&#12377;&#12363;&#65311;']
-			</item>
-			<item
-			capname="form"
-			id="f826a3e0-35ab-407e-b11a-e96d83fb6155"
-			name="dialog_退会完了"
-			robustPath="/form[@title>'マイページ | HOTEL PLANISPHERE']/element"
-			searchtimeout="30000ms">
-				/form[@title&gt;'&#12510;&#12452;&#12506;&#12540;&#12472; | HOTEL PLANISPHERE']//form[@accessibledescription='&#36864;&#20250;&#20966;&#29702;&#12434;&#23436;&#20102;&#12375;&#12414;&#12375;&#12383;&#12290;&#12372;&#21033;&#29992;&#12354;&#12426;&#12364;&#12392;&#12358;&#12372;&#12374;&#12356;&#12414;&#12375;&#12383;&#12290;']
-			</item>
-			<folder
-			capname="form"
-			id="a46abd42-f405-4b94-bbe5-2c06a40f48dd"
-			isrooted="True"
-			name="ダイアログ"
-			searchtimeout="30000ms"
-			usecache="False">
-				<item
-				capname="button"
-				id="5af54571-f714-47e9-ba60-1cace541d135"
-				name="button_OK_Edge"
-				refimgid="6ca0941f-0d08-4f26-9075-25570dcb3f7e"
-				robustPath="/form[@title>'マイページ | HOTEL PLANISPHERE']/element"
-				searchtimeout="30000ms">
-					/form[@title&gt;'&#12510;&#12452;&#12506;&#12540;&#12472; | HOTEL PLANISPHERE']//container[1]/form//button[@name='OK']
-				</item>
-				<item
-				capname="button"
-				id="9b56e5d3-330c-44ec-ba09-b84537fa32ab"
-				name="button_キャンセル_Edge"
-				robustPath=""
-				searchtimeout="30000ms">
-					/form[@title&gt;'&#12510;&#12452;&#12506;&#12540;&#12472; | HOTEL PLANISPHERE']//container[1]/form//button[@name='&#12461;&#12515;&#12531;&#12475;&#12523;']
-				</item>
-				<item
-				capname="button"
-				id="c809ef97-2cab-4a08-b7f6-8f85e742686e"
-				name="button_OK_Chrome"
-				robustPath="/form[@title>'マイページ | HOTEL PLANISPHERE']//container[1]/form/element"
-				searchtimeout="30000ms">
-					/form[@title&gt;'&#12510;&#12452;&#12506;&#12540;&#12472; | HOTEL PLANISPHERE']//container[1]/form//button[@accessiblename='OK']
-				</item>
-				<item
-				capname="button"
-				id="73f5fe08-a939-4358-94c0-4bb89996e837"
-				name="button_キャンセル_Chrome"
-				robustPath="/form[@title>'マイページ | HOTEL PLANISPHERE']//container[1]/form/element"
-				searchtimeout="30000ms">
-					/form[@title&gt;'&#12510;&#12452;&#12506;&#12540;&#12472; | HOTEL PLANISPHERE']//container[1]/form//button[@accesiblename='&#12461;&#12515;&#12531;&#12475;&#12523;']
-				</item>
-				<basepath>
-					/form[@title&gt;'&#12510;&#12452;&#12506;&#12540;&#12472; | HOTEL PLANISPHERE']//container[1]/form
-				</basepath>
-			</folder>
-			<basepath>
-				/form[@title&gt;'&#12510;&#12452;&#12506;&#12540;&#12472; | HOTEL PLANISPHERE']
-			</basepath>
-		</appfolder>
-		<appfolder
-		capname="form"
-		id="690021a4-e482-4791-82fa-2f60831ea7df"
-		isrooted="True"
-		name="ダイアログ_ファイル選択_アイコン設定"
-		searchtimeout="30000ms"
-		usecache="False">
-			<item
-			capname="button"
-			id="f9bc7a42-9638-4511-8fe9-9969d1a26a34"
-			name="button_開く"
-			robustPath="/form[@title='開く']/element"
-			searchtimeout="30000ms">
-				/form[@title='&#38283;&#12367;']//button[@text='&#38283;&#12367;(&amp;O)']
-			</item>
-			<item
-			capname="text"
-			id="53b12632-4c82-4350-8ca6-fc3ec0857e12"
-			name="textbox_ファイル名"
-			robustPath="/form[@title='開く']/element"
-			searchtimeout="30000ms">
-				/form[@title='開く']//text[@controlid='1148']
-			</item>
-			<basepath>
-				/form[@title='開く']
-			</basepath>
-		</appfolder>
-		<appfolder
 		capname="webdocument"
 		id="27748aa9-ecf2-4a36-823d-22506f87eeca"
 		isrooted="True"
@@ -146,33 +48,6 @@ name="Hotel_Planisphere">
 			</item>
 			<basepath>
 				/dom[@domain='the-internet.herokuapp.com' and @path='/download']
-			</basepath>
-		</appfolder>
-		<appfolder
-		capname="form"
-		id="997fef90-396f-4713-8990-6a340f6143b5"
-		isrooted="True"
-		name="ダイアログ_名前を付けて保存"
-		searchtimeout="30000ms"
-		usecache="False">
-			<item
-			capname="text"
-			id="1aa809d2-fcde-44d7-b2c9-bfcac7e610ec"
-			name="textbox_ファイル名"
-			robustPath=""
-			searchtimeout="30000ms">
-				/form[@title='名前を付けて保存']//container[@classname='DUIViewWndClassName']//text[@automationid='1001']
-			</item>
-			<item
-			capname="button"
-			id="052a9a7e-0b5b-4d69-9e5c-a272ced1968d"
-			name="button_保存"
-			robustPath=""
-			searchtimeout="30000ms">
-				/form[@title='名前を付けて保存']//button[@name='保存(S)']
-			</item>
-			<basepath>
-				/form[@title='名前を付けて保存']
 			</basepath>
 		</appfolder>
 		<folder
@@ -1160,6 +1035,131 @@ name="Hotel_Planisphere">
 				</item>
 				<basepath>
 					/dom[@domain='hotel-example-site.takeyaqa.dev' and @path='/ja/icon.html']
+				</basepath>
+			</appfolder>
+			<appfolder
+			capname="form"
+			id="68737fad-c4d9-4514-8858-393fd843b82c"
+			isrooted="True"
+			name="Chrome_HOTEL_PLANISPHERE"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="form"
+				id="6ae354c5-734d-4013-bc46-3441c3d84b24"
+				name="dialog_退会確認"
+				robustPath="/form[@title>'マイページ | HOTEL PLANISPHERE']/element"
+				searchtimeout="30000ms">
+					/form[@title&gt;'&#12510;&#12452;&#12506;&#12540;&#12472; | HOTEL PLANISPHERE']//form[@accessibledescription='&#36864;&#20250;&#12377;&#12427;&#12392;&#20840;&#12390;&#12398;&#24773;&#22577;&#12364;&#21066;&#38500;&#12373;&#12428;&#12414;&#12377;&#12290;&#12424;&#12429;&#12375;&#12356;&#12391;&#12377;&#12363;&#65311;']
+				</item>
+				<item
+				capname="form"
+				id="f826a3e0-35ab-407e-b11a-e96d83fb6155"
+				name="dialog_退会完了"
+				robustPath="/form[@title>'マイページ | HOTEL PLANISPHERE']/element"
+				searchtimeout="30000ms">
+					/form[@title&gt;'&#12510;&#12452;&#12506;&#12540;&#12472; | HOTEL PLANISPHERE']//form[@accessibledescription='&#36864;&#20250;&#20966;&#29702;&#12434;&#23436;&#20102;&#12375;&#12414;&#12375;&#12383;&#12290;&#12372;&#21033;&#29992;&#12354;&#12426;&#12364;&#12392;&#12358;&#12372;&#12374;&#12356;&#12414;&#12375;&#12383;&#12290;']
+				</item>
+				<folder
+				capname="form"
+				id="a46abd42-f405-4b94-bbe5-2c06a40f48dd"
+				isrooted="True"
+				name="ダイアログ"
+				searchtimeout="30000ms"
+				usecache="False">
+					<item
+					capname="button"
+					id="5af54571-f714-47e9-ba60-1cace541d135"
+					name="button_OK_Edge"
+					refimgid="6ca0941f-0d08-4f26-9075-25570dcb3f7e"
+					robustPath="/form[@title>'マイページ | HOTEL PLANISPHERE']/element"
+					searchtimeout="30000ms">
+						/form[@title&gt;'&#12510;&#12452;&#12506;&#12540;&#12472; | HOTEL PLANISPHERE']//container[1]/form//button[@name='OK']
+					</item>
+					<item
+					capname="button"
+					id="9b56e5d3-330c-44ec-ba09-b84537fa32ab"
+					name="button_キャンセル_Edge"
+					robustPath=""
+					searchtimeout="30000ms">
+						/form[@title&gt;'&#12510;&#12452;&#12506;&#12540;&#12472; | HOTEL PLANISPHERE']//container[1]/form//button[@name='&#12461;&#12515;&#12531;&#12475;&#12523;']
+					</item>
+					<item
+					capname="button"
+					id="c809ef97-2cab-4a08-b7f6-8f85e742686e"
+					name="button_OK_Chrome"
+					robustPath="/form[@title>'マイページ | HOTEL PLANISPHERE']//container[1]/form/element"
+					searchtimeout="30000ms">
+						/form[@title&gt;'&#12510;&#12452;&#12506;&#12540;&#12472; | HOTEL PLANISPHERE']//container[1]/form//button[@accessiblename='OK']
+					</item>
+					<item
+					capname="button"
+					id="73f5fe08-a939-4358-94c0-4bb89996e837"
+					name="button_キャンセル_Chrome"
+					robustPath="/form[@title>'マイページ | HOTEL PLANISPHERE']//container[1]/form/element"
+					searchtimeout="30000ms">
+						/form[@title&gt;'&#12510;&#12452;&#12506;&#12540;&#12472; | HOTEL PLANISPHERE']//container[1]/form//button[@accesiblename='&#12461;&#12515;&#12531;&#12475;&#12523;']
+					</item>
+					<basepath>
+						/form[@title&gt;'&#12510;&#12452;&#12506;&#12540;&#12472; | HOTEL PLANISPHERE']//container[1]/form
+					</basepath>
+				</folder>
+				<basepath>
+					/form[@title&gt;'&#12510;&#12452;&#12506;&#12540;&#12472; | HOTEL PLANISPHERE']
+				</basepath>
+			</appfolder>
+			<appfolder
+			capname="form"
+			id="690021a4-e482-4791-82fa-2f60831ea7df"
+			isrooted="True"
+			name="ダイアログ_ファイル選択_アイコン設定"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="button"
+				id="f9bc7a42-9638-4511-8fe9-9969d1a26a34"
+				name="button_開く"
+				robustPath="/form[@title='開く']/element"
+				searchtimeout="30000ms">
+					/form[@title='&#38283;&#12367;']//button[@text='&#38283;&#12367;(&amp;O)']
+				</item>
+				<item
+				capname="text"
+				id="53b12632-4c82-4350-8ca6-fc3ec0857e12"
+				name="textbox_ファイル名"
+				robustPath="/form[@title='開く']/element"
+				searchtimeout="30000ms">
+					/form[@title='開く']//text[@controlid='1148']
+				</item>
+				<basepath>
+					/form[@title='開く']
+				</basepath>
+			</appfolder>
+			<appfolder
+			capname="form"
+			id="997fef90-396f-4713-8990-6a340f6143b5"
+			isrooted="True"
+			name="ダイアログ_名前を付けて保存"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="text"
+				id="1aa809d2-fcde-44d7-b2c9-bfcac7e610ec"
+				name="textbox_ファイル名"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@title='名前を付けて保存']//container[@classname='DUIViewWndClassName']//text[@automationid='1001']
+				</item>
+				<item
+				capname="button"
+				id="052a9a7e-0b5b-4d69-9e5c-a272ced1968d"
+				name="button_保存"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@title='名前を付けて保存']//button[@name='保存(S)']
+				</item>
+				<basepath>
+					/form[@title='名前を付けて保存']
 				</basepath>
 			</appfolder>
 		</folder>

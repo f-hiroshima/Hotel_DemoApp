@@ -20,26 +20,26 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace HotelTrainingTest.Module.画像比較
+namespace HotelTrainingTest.Module_Usercode.画像比較
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The 確認_ログイン画面 recording.
+    ///The 確認_ログアウトボタン recording.
     /// </summary>
-    [TestModule("76659325-82e1-4805-b906-077c30110e96", ModuleType.Recording, 1)]
-    public partial class 確認_ログイン画面 : ITestModule
+    [TestModule("f7474525-d186-43c0-ae91-619715c5bd54", ModuleType.Recording, 1)]
+    public partial class 確認_ログアウトボタン : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::HotelTrainingTest.Repository.Hotel_Planisphere repository.
         /// </summary>
         public static global::HotelTrainingTest.Repository.Hotel_Planisphere repo = global::HotelTrainingTest.Repository.Hotel_Planisphere.Instance;
 
-        static 確認_ログイン画面 instance = new 確認_ログイン画面();
+        static 確認_ログアウトボタン instance = new 確認_ログアウトボタン();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public 確認_ログイン画面()
+        public 確認_ログアウトボタン()
         {
             evidenceFileName = "";
             evidenceFolderPath = "";
@@ -47,14 +47,14 @@ namespace HotelTrainingTest.Module.画像比較
             fileExtension = "";
             resultFileName = "";
             resultFolderPath = "";
-            targetFileName = "";
             targetFolderPath = "";
+            targetFileName = "";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static 確認_ログイン画面 Instance
+        public static 確認_ログアウトボタン Instance
         {
             get { return instance; }
         }
@@ -66,7 +66,7 @@ namespace HotelTrainingTest.Module.画像比較
         /// <summary>
         /// Gets or sets the value of variable evidenceFileName.
         /// </summary>
-        [TestVariable("1edc8e58-956b-4c05-89fb-c956ce62f620")]
+        [TestVariable("83cd4978-03f4-4d6a-8de5-89d00f3e6493")]
         public string evidenceFileName
         {
             get { return _evidenceFileName; }
@@ -78,7 +78,7 @@ namespace HotelTrainingTest.Module.画像比較
         /// <summary>
         /// Gets or sets the value of variable evidenceFolderPath.
         /// </summary>
-        [TestVariable("609ec8c2-a325-4191-b979-8228bdbdf746")]
+        [TestVariable("b49de56a-d5a2-43c2-b654-72587522d453")]
         public string evidenceFolderPath
         {
             get { return _evidenceFolderPath; }
@@ -90,7 +90,7 @@ namespace HotelTrainingTest.Module.画像比較
         /// <summary>
         /// Gets or sets the value of variable targetName.
         /// </summary>
-        [TestVariable("9b48a62d-4a05-4718-818f-e70e239891e4")]
+        [TestVariable("7dd6da7e-18c7-4161-b30c-73c37c1665eb")]
         public string targetName
         {
             get { return _targetName; }
@@ -102,7 +102,7 @@ namespace HotelTrainingTest.Module.画像比較
         /// <summary>
         /// Gets or sets the value of variable fileExtension.
         /// </summary>
-        [TestVariable("792bf607-27e1-49c1-addc-d38ba37c88a6")]
+        [TestVariable("9f378121-2883-41b8-9c69-9a440016f5ce")]
         public string fileExtension
         {
             get { return _fileExtension; }
@@ -114,7 +114,7 @@ namespace HotelTrainingTest.Module.画像比較
         /// <summary>
         /// Gets or sets the value of variable resultFileName.
         /// </summary>
-        [TestVariable("2c6dcec9-34c5-4c03-bccb-e43eb33c2acc")]
+        [TestVariable("200899e5-9986-43cb-be7c-457b7a23bb43")]
         public string resultFileName
         {
             get { return _resultFileName; }
@@ -126,23 +126,11 @@ namespace HotelTrainingTest.Module.画像比較
         /// <summary>
         /// Gets or sets the value of variable resultFolderPath.
         /// </summary>
-        [TestVariable("b4df50c0-a5a8-42a0-b5b1-9aa5522ab18a")]
+        [TestVariable("3e3d7b5b-f794-419c-b1ac-4b4cb0358b44")]
         public string resultFolderPath
         {
             get { return _resultFolderPath; }
             set { _resultFolderPath = value; }
-        }
-
-        string _targetFileName;
-
-        /// <summary>
-        /// Gets or sets the value of variable targetFileName.
-        /// </summary>
-        [TestVariable("c68f484a-bdc9-4305-b987-55b6da814410")]
-        public string targetFileName
-        {
-            get { return _targetFileName; }
-            set { _targetFileName = value; }
         }
 
         string _targetFolderPath;
@@ -150,11 +138,23 @@ namespace HotelTrainingTest.Module.画像比較
         /// <summary>
         /// Gets or sets the value of variable targetFolderPath.
         /// </summary>
-        [TestVariable("f6252c40-79ee-46ae-ad6d-2ac8ea7b4b63")]
+        [TestVariable("999abd7a-25f7-42da-81ce-4664ab8a7788")]
         public string targetFolderPath
         {
             get { return _targetFolderPath; }
             set { _targetFolderPath = value; }
+        }
+
+        string _targetFileName;
+
+        /// <summary>
+        /// Gets or sets the value of variable targetFileName.
+        /// </summary>
+        [TestVariable("35fef72d-9857-4254-a4fa-5311e5f46420")]
+        public string targetFileName
+        {
+            get { return _targetFileName; }
+            set { _targetFileName = value; }
         }
 
 #endregion
@@ -183,11 +183,8 @@ namespace HotelTrainingTest.Module.画像比較
 
             Init();
 
-            // ログイン画面の（画面下部を除いての）画像比較をエビデンスフォルダ作成で作成したフォルダパスを使用する
-            Report.Log(ReportLevel.Info, "Section", "ログイン画面の（画面下部を除いての）画像比較をエビデンスフォルダ作成で作成したフォルダパスを使用する", new RecordItemIndex(0));
-            
-            UserCode.UserCodeCollection_ImageCompare.InitializationIgnoreRectangles();
-            Delay.Milliseconds(0);
+            // ログアウトボタンの画像比較をエビデンスフォルダ作成で作成したフォルダパスを使用する
+            Report.Log(ReportLevel.Info, "Section", "ログアウトボタンの画像比較をエビデンスフォルダ作成で作成したフォルダパスを使用する", new RecordItemIndex(0));
             
             evidenceFileName = UserCode.UserCodeCollection_ImageCompare.GetCombinePathExtension(evidenceFolderPath, targetName, "", fileExtension);
             Delay.Milliseconds(0);
@@ -198,16 +195,17 @@ namespace HotelTrainingTest.Module.画像比較
             targetFileName = UserCode.UserCodeCollection_ImageCompare.GetCombinePathExtension(targetFolderPath, targetName, "", fileExtension);
             Delay.Milliseconds(0);
             
-            UserCode.UserCodeCollection_ImageCompare.GetScreenshot(repo.Hotelサイト.Hotel_ログイン画面.bodyInfo, evidenceFileName);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'Hotelサイト.Hotel_共通.共通動作.button_ログアウト' at Center.", repo.Hotelサイト.Hotel_共通.共通動作.button_ログアウトInfo, new RecordItemIndex(4));
+            repo.Hotelサイト.Hotel_共通.共通動作.button_ログアウト.MoveTo();
             Delay.Milliseconds(0);
             
-            UserCode.UserCodeCollection_ImageCompare.AddIgnoreRectUnknown(repo.Hotelサイト.Hotel_ログイン画面.フッターInfo, repo.Hotelサイト.Hotel_ログイン画面.bodyInfo);
+            UserCode.UserCodeCollection_ImageCompare.GetScreenshot(repo.Hotelサイト.Hotel_共通.bodyInfo, evidenceFileName);
             Delay.Milliseconds(0);
             
             try {
-                UserCode.UserCodeCollection_ImageCompare.ValidateCompareImageBitmapIgnore(evidenceFileName, targetFileName, resultFileName);
+                UserCode.UserCodeCollection_ImageCompare.ValidateCompareImageBitmap(evidenceFileName, targetFileName, resultFileName);
                 Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(6)); }
             
         }
 

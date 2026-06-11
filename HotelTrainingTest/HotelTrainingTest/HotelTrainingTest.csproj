@@ -82,18 +82,6 @@
     <Compile Include="AssemblyInfo.cs">
       <id>dbc6353a-abcb-494a-8d52-fc7642da8e3f</id>
     </Compile>
-    <Compile Include="Module\その他\動作確認.cs">
-      <BoundTo>80589ca3-e455-4c15-a169-3f6a2e1c7cae</BoundTo>
-      <DependentUpon>動作確認.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>18cc707a-4d72-4283-b05f-8194a956bd51</id>
-    </Compile>
-    <Compile Include="Module\その他\動作確認.UserCode.cs">
-      <BoundTo>80589ca3-e455-4c15-a169-3f6a2e1c7cae</BoundTo>
-      <DependentUpon>動作確認.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>54fa5f8a-62f6-447b-97f7-13970a2edb52</id>
-    </Compile>
     <Compile Include="Module\その他\操作_予約ボタン_押下.cs">
       <DependentUpon>操作_予約ボタン_押下.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
@@ -994,66 +982,6 @@
       <UserCode>true</UserCode>
       <id>1f990768-e530-4117-a570-0808d0e07c43</id>
     </Compile>
-    <Compile Include="Module\画像比較\操作_エビデンスフォルダ作成.cs">
-      <BoundTo>0e0f25d2-1709-4d22-a8ba-667d5bf4bc60</BoundTo>
-      <DependentUpon>操作_エビデンスフォルダ作成.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>c70fdfb5-682c-4dc8-9c21-01eaf26abf1f</id>
-    </Compile>
-    <Compile Include="Module\画像比較\操作_エビデンスフォルダ作成.UserCode.cs">
-      <BoundTo>0e0f25d2-1709-4d22-a8ba-667d5bf4bc60</BoundTo>
-      <DependentUpon>操作_エビデンスフォルダ作成.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>f2c26cbf-d5bf-4e2d-84c9-256e6d6eec7f</id>
-    </Compile>
-    <Compile Include="Module\画像比較\確認_Table領域.cs">
-      <BoundTo>d40f0117-f9fb-4c4f-bd3f-8d196b2528b6</BoundTo>
-      <DependentUpon>確認_Table領域.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>fc1e0434-0513-4d5a-bd11-7813d36f2592</id>
-    </Compile>
-    <Compile Include="Module\画像比較\確認_Table領域.UserCode.cs">
-      <BoundTo>d40f0117-f9fb-4c4f-bd3f-8d196b2528b6</BoundTo>
-      <DependentUpon>確認_Table領域.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>a82aa1e4-b6bd-4ae5-8cac-b8744db1303b</id>
-    </Compile>
-    <Compile Include="Module\画像比較\確認_ログアウトボタン.cs">
-      <BoundTo>3122ff4b-a016-45d8-b2b7-293d613f0735</BoundTo>
-      <DependentUpon>確認_ログアウトボタン.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>2c82fc7d-0b40-4655-94c2-f407340ade25</id>
-    </Compile>
-    <Compile Include="Module\画像比較\確認_ログアウトボタン.UserCode.cs">
-      <BoundTo>3122ff4b-a016-45d8-b2b7-293d613f0735</BoundTo>
-      <DependentUpon>確認_ログアウトボタン.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>cb23b142-dfcc-41e4-aaf6-334bad087d2f</id>
-    </Compile>
-    <Compile Include="Module\画像比較\確認_ログイン画面.cs">
-      <BoundTo>46215ded-9bdb-4452-9b12-f11811ff021b</BoundTo>
-      <DependentUpon>確認_ログイン画面.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>3357b65d-aad5-4e9b-a34d-c134c4b9cdf9</id>
-    </Compile>
-    <Compile Include="Module\画像比較\確認_ログイン画面.UserCode.cs">
-      <BoundTo>46215ded-9bdb-4452-9b12-f11811ff021b</BoundTo>
-      <DependentUpon>確認_ログイン画面.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>a36317c6-1494-4515-bb74-3e8f0d20bc8b</id>
-    </Compile>
-    <Compile Include="Module\画像比較\確認_猫の画像.cs">
-      <BoundTo>ac81e0c8-6c71-45df-8442-39e463c01cfa</BoundTo>
-      <DependentUpon>確認_猫の画像.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>54c2a0e2-ab32-43c8-88b3-78f4ef2de1f5</id>
-    </Compile>
-    <Compile Include="Module\画像比較\確認_猫の画像.UserCode.cs">
-      <BoundTo>ac81e0c8-6c71-45df-8442-39e463c01cfa</BoundTo>
-      <DependentUpon>確認_猫の画像.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>763f4f5f-ecb5-46aa-9e53-a7104486b055</id>
-    </Compile>
     <Compile Include="Module\追加課題\操作_FileDownload_押下.cs">
       <BoundTo>e43f1538-0635-42f1-823b-23acd7fee694</BoundTo>
       <DependentUpon>操作_FileDownload_押下.rxrec</DependentUpon>
@@ -1498,6 +1426,66 @@
       <UserCode>true</UserCode>
       <id>a59bbfe2-8419-41a1-9706-2bcd31bec95d</id>
     </Compile>
+    <Compile Include="Module_Usercode\画像比較\操作_エビデンスフォルダ作成.cs">
+      <BoundTo>0e0f25d2-1709-4d22-a8ba-667d5bf4bc60</BoundTo>
+      <DependentUpon>操作_エビデンスフォルダ作成.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c70fdfb5-682c-4dc8-9c21-01eaf26abf1f</id>
+    </Compile>
+    <Compile Include="Module_Usercode\画像比較\操作_エビデンスフォルダ作成.UserCode.cs">
+      <BoundTo>0e0f25d2-1709-4d22-a8ba-667d5bf4bc60</BoundTo>
+      <DependentUpon>操作_エビデンスフォルダ作成.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f2c26cbf-d5bf-4e2d-84c9-256e6d6eec7f</id>
+    </Compile>
+    <Compile Include="Module_Usercode\画像比較\確認_Table領域.cs">
+      <BoundTo>d40f0117-f9fb-4c4f-bd3f-8d196b2528b6</BoundTo>
+      <DependentUpon>確認_Table領域.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fc1e0434-0513-4d5a-bd11-7813d36f2592</id>
+    </Compile>
+    <Compile Include="Module_Usercode\画像比較\確認_Table領域.UserCode.cs">
+      <BoundTo>d40f0117-f9fb-4c4f-bd3f-8d196b2528b6</BoundTo>
+      <DependentUpon>確認_Table領域.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a82aa1e4-b6bd-4ae5-8cac-b8744db1303b</id>
+    </Compile>
+    <Compile Include="Module_Usercode\画像比較\確認_ログアウトボタン.cs">
+      <BoundTo>3122ff4b-a016-45d8-b2b7-293d613f0735</BoundTo>
+      <DependentUpon>確認_ログアウトボタン.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2c82fc7d-0b40-4655-94c2-f407340ade25</id>
+    </Compile>
+    <Compile Include="Module_Usercode\画像比較\確認_ログアウトボタン.UserCode.cs">
+      <BoundTo>3122ff4b-a016-45d8-b2b7-293d613f0735</BoundTo>
+      <DependentUpon>確認_ログアウトボタン.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cb23b142-dfcc-41e4-aaf6-334bad087d2f</id>
+    </Compile>
+    <Compile Include="Module_Usercode\画像比較\確認_ログイン画面.cs">
+      <BoundTo>46215ded-9bdb-4452-9b12-f11811ff021b</BoundTo>
+      <DependentUpon>確認_ログイン画面.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3357b65d-aad5-4e9b-a34d-c134c4b9cdf9</id>
+    </Compile>
+    <Compile Include="Module_Usercode\画像比較\確認_ログイン画面.UserCode.cs">
+      <BoundTo>46215ded-9bdb-4452-9b12-f11811ff021b</BoundTo>
+      <DependentUpon>確認_ログイン画面.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a36317c6-1494-4515-bb74-3e8f0d20bc8b</id>
+    </Compile>
+    <Compile Include="Module_Usercode\画像比較\確認_猫の画像.cs">
+      <BoundTo>ac81e0c8-6c71-45df-8442-39e463c01cfa</BoundTo>
+      <DependentUpon>確認_猫の画像.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>54c2a0e2-ab32-43c8-88b3-78f4ef2de1f5</id>
+    </Compile>
+    <Compile Include="Module_Usercode\画像比較\確認_猫の画像.UserCode.cs">
+      <BoundTo>ac81e0c8-6c71-45df-8442-39e463c01cfa</BoundTo>
+      <DependentUpon>確認_猫の画像.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>763f4f5f-ecb5-46aa-9e53-a7104486b055</id>
+    </Compile>
     <Compile Include="Program.cs">
       <id>530db4a9-c91b-465e-a3a8-81f169a0c810</id>
     </Compile>
@@ -1563,11 +1551,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>96fe1b94-3a62-48be-9b6b-99ca6845a490</id>
     </Content>
-    <None Include="Module\その他\動作確認.rxrec">
-      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
-      <id>80589ca3-e455-4c15-a169-3f6a2e1c7cae</id>
-      <recordtableid>c514eaaf-5cda-452a-8080-29ac23c5ace5</recordtableid>
-    </None>
     <None Include="Module\その他\操作_予約ボタン_押下.rxrec">
       <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
       <id>17c42411-423d-4d7d-a3a6-e60a337a85bd</id>
@@ -1943,31 +1926,6 @@
       <id>c7769ebd-bd0d-4169-8d5a-45c378fbd254</id>
       <recordtableid>e57251cc-f75a-4fc2-8f5c-53415c66e15f</recordtableid>
     </None>
-    <None Include="Module\画像比較\操作_エビデンスフォルダ作成.rxrec">
-      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
-      <id>0e0f25d2-1709-4d22-a8ba-667d5bf4bc60</id>
-      <recordtableid>62e7cbb1-8a35-4d7b-b7ce-9c7b7af79621</recordtableid>
-    </None>
-    <None Include="Module\画像比較\確認_Table領域.rxrec">
-      <id>d40f0117-f9fb-4c4f-bd3f-8d196b2528b6</id>
-      <recordtableid>32dcaa59-3e35-4361-80a8-07c3ae465689</recordtableid>
-      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
-    </None>
-    <None Include="Module\画像比較\確認_ログアウトボタン.rxrec">
-      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
-      <id>3122ff4b-a016-45d8-b2b7-293d613f0735</id>
-      <recordtableid>f7474525-d186-43c0-ae91-619715c5bd54</recordtableid>
-    </None>
-    <None Include="Module\画像比較\確認_ログイン画面.rxrec">
-      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
-      <id>46215ded-9bdb-4452-9b12-f11811ff021b</id>
-      <recordtableid>76659325-82e1-4805-b906-077c30110e96</recordtableid>
-    </None>
-    <None Include="Module\画像比較\確認_猫の画像.rxrec">
-      <id>ac81e0c8-6c71-45df-8442-39e463c01cfa</id>
-      <recordtableid>66b9d8fd-692a-408f-b4bb-c9ddef3bfb54</recordtableid>
-      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
-    </None>
     <None Include="Module\追加課題\操作_FileDownload_押下.rxrec">
       <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
       <id>e43f1538-0635-42f1-823b-23acd7fee694</id>
@@ -2153,6 +2111,31 @@
       <id>662af01f-535e-49cd-b234-1136b7d1f03a</id>
       <recordtableid>c923d4ab-3c68-48f3-83fc-d206548a4ac3</recordtableid>
     </None>
+    <None Include="Module_Usercode\画像比較\操作_エビデンスフォルダ作成.rxrec">
+      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
+      <id>0e0f25d2-1709-4d22-a8ba-667d5bf4bc60</id>
+      <recordtableid>62e7cbb1-8a35-4d7b-b7ce-9c7b7af79621</recordtableid>
+    </None>
+    <None Include="Module_Usercode\画像比較\確認_Table領域.rxrec">
+      <id>d40f0117-f9fb-4c4f-bd3f-8d196b2528b6</id>
+      <recordtableid>32dcaa59-3e35-4361-80a8-07c3ae465689</recordtableid>
+      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
+    </None>
+    <None Include="Module_Usercode\画像比較\確認_ログアウトボタン.rxrec">
+      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
+      <id>3122ff4b-a016-45d8-b2b7-293d613f0735</id>
+      <recordtableid>f7474525-d186-43c0-ae91-619715c5bd54</recordtableid>
+    </None>
+    <None Include="Module_Usercode\画像比較\確認_ログイン画面.rxrec">
+      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
+      <id>46215ded-9bdb-4452-9b12-f11811ff021b</id>
+      <recordtableid>76659325-82e1-4805-b906-077c30110e96</recordtableid>
+    </None>
+    <None Include="Module_Usercode\画像比較\確認_猫の画像.rxrec">
+      <id>ac81e0c8-6c71-45df-8442-39e463c01cfa</id>
+      <recordtableid>66b9d8fd-692a-408f-b4bb-c9ddef3bfb54</recordtableid>
+      <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
+    </None>
     <None Include="Repository\Hotel_Planisphere.rximg">
       <BoundTo>36f8ee73-da2f-468b-ab3c-77e7b6bd09cd</BoundTo>
       <DependentUpon>Hotel_Planisphere.rxrep</DependentUpon>
@@ -2225,9 +2208,6 @@
     <Folder Include="Module\追加課題">
       <id>43e170d7-155e-4c30-87e8-f943e86f87b3</id>
     </Folder>
-    <Folder Include="Module\画像比較">
-      <id>1ef5362e-e586-4442-a1b8-fa0330a7a344</id>
-    </Folder>
     <Folder Include="Module\退会処理">
       <id>7b0d4937-c915-45c6-abf1-67aee5521813</id>
     </Folder>
@@ -2243,11 +2223,11 @@
     <Folder Include="Module_Demoアプリ\Introduction">
       <id>5f4e741f-dd08-4d8c-b640-442373213618</id>
     </Folder>
-    <Folder Include="Module_Demoアプリ\UI-element test area">
-      <id>f9afdffe-eec2-4a35-bea6-9a081d5df11f</id>
-    </Folder>
     <Folder Include="Module_Demoアプリ\共通">
       <id>465cfb75-5093-4cef-a059-b4ae250a99e7</id>
+    </Folder>
+    <Folder Include="Module_Usercode\画像比較">
+      <id>269dd397-193e-478c-b0a5-c1153766afff</id>
     </Folder>
     <Folder Include="Repository">
       <id>a121797d-3402-4cff-86f2-48641d14386d</id>

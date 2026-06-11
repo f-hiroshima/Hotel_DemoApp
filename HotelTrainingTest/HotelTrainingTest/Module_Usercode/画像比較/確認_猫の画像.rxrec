@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="76659325-82e1-4805-b906-077c30110e96"
+id="66b9d8fd-692a-408f-b4bb-c9ddef3bfb54"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,40 +19,40 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="確認_ログイン画面"
-	namespace="HotelTrainingTest.Module.画像比較">
+	classname="確認_猫の画像"
+	namespace="HotelTrainingTest.Module_Usercode.画像比較">
 	</codegen>
 	<variables>
 		<var
-		id="1edc8e58-956b-4c05-89fb-c956ce62f620"
+		id="0960d050-cb95-48ea-8bc8-caefd8dcc445"
 		name="evidenceFileName">
 		</var>
 		<var
-		id="609ec8c2-a325-4191-b979-8228bdbdf746"
+		id="f405974b-6334-44e0-81bb-46ed755b9cee"
 		name="evidenceFolderPath">
 		</var>
 		<var
-		id="9b48a62d-4a05-4718-818f-e70e239891e4"
+		id="18ef11b1-176b-45be-b1af-a0f9a570b5a2"
 		name="targetName">
 		</var>
 		<var
-		id="792bf607-27e1-49c1-addc-d38ba37c88a6"
+		id="28427af1-1e77-415e-ac4b-17a02f63011f"
 		name="fileExtension">
 		</var>
 		<var
-		id="2c6dcec9-34c5-4c03-bccb-e43eb33c2acc"
+		id="91494507-d303-4770-b196-3556faf7705a"
 		name="resultFileName">
 		</var>
 		<var
-		id="b4df50c0-a5a8-42a0-b5b1-9aa5522ab18a"
+		id="12b24834-d355-4b2a-96bc-6a3cd2930845"
 		name="resultFolderPath">
 		</var>
 		<var
-		id="c68f484a-bdc9-4305-b987-55b6da814410"
+		id="e1799dc4-0e9f-42eb-b377-d8ef006df12f"
 		name="targetFileName">
 		</var>
 		<var
-		id="f6252c40-79ee-46ae-ad6d-2ac8ea7b4b63"
+		id="5106599f-995e-4ab5-9265-42fad6a74b89"
 		name="targetFolderPath">
 		</var>
 	</variables>
@@ -61,7 +61,7 @@ mode="Global">
 		enabled="True"
 		optional="False">
 			<comment>
-				ログイン画面の（画面下部を除いての）画像比較をエビデンスフォルダ作成で作成したフォルダパスを使用する
+				Image-basedタブの（カレンダー部分を除いての）画像比較をエビデンスフォルダ作成で作成したフォルダパスを使用する
 			</comment>
 			<bindings>
 			</bindings>
@@ -277,10 +277,10 @@ mode="Global">
 					<argvalue>
 					</argvalue>
 					<info
-					id="6f547acb-7d35-4f8d-ad78-4d8c1c4c770e"
+					id="da005783-2ead-48fb-b2b4-ab7c4010a1da"
 					sourcename="RepositoryEditor">
 						<path>
-							/dom[@domain='hotel-example-site.takeyaqa.dev' and @path='/ja/login.html']/body
+							/form[@controlname='RxMainFrame']//tabpage[@controlname='RxTabImageBased']
 						</path>
 						<robustPath>
 						</robustPath>
@@ -320,10 +320,10 @@ mode="Global">
 					<argvalue>
 					</argvalue>
 					<info
-					id="f431af0d-8c4e-4b10-a941-186370e022f7"
+					id="ae14371d-06e4-41b7-aa27-494d1c53cdcb"
 					sourcename="RepositoryEditor">
 						<path>
-							/dom[@domain='hotel-example-site.takeyaqa.dev' and @path='/ja/login.html']//footer
+							/form[@controlname='RxMainFrame']//tabpage[@controlname='RxTabImageBased']//datetime[@controlname='monthCalendar1']
 						</path>
 						<robustPath>
 						</robustPath>
@@ -338,10 +338,10 @@ mode="Global">
 					<argvalue>
 					</argvalue>
 					<info
-					id="6f547acb-7d35-4f8d-ad78-4d8c1c4c770e"
+					id="da005783-2ead-48fb-b2b4-ab7c4010a1da"
 					sourcename="RepositoryEditor">
 						<path>
-							/dom[@domain='hotel-example-site.takeyaqa.dev' and @path='/ja/login.html']/body
+							/form[@controlname='RxMainFrame']//tabpage[@controlname='RxTabImageBased']
 						</path>
 						<robustPath>
 						</robustPath>
@@ -410,7 +410,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		確認_ログイン画面.UserCode.cs
+		確認_猫の画像.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

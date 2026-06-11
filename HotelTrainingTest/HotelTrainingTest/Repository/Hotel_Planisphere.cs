@@ -27,11 +27,8 @@ namespace HotelTrainingTest.Repository
     public partial class Hotel_Planisphere : RepoGenBaseFolder
     {
         static Hotel_Planisphere instance = new Hotel_Planisphere();
-        Hotel_PlanisphereFolders.Chrome_HOTEL_PLANISPHEREAppFolder _chrome_hotel_planisphere;
-        Hotel_PlanisphereFolders.ダイアログ_ファイル選択_アイコン設定AppFolder _ダイアログ_ファイル選択_アイコン設定;
         Hotel_PlanisphereFolders.追加課題_共通AppFolder _追加課題_共通;
         Hotel_PlanisphereFolders.追加課題_ファイルダウンロードAppFolder _追加課題_ファイルダウンロード;
-        Hotel_PlanisphereFolders.ダイアログ_名前を付けて保存AppFolder _ダイアログ_名前を付けて保存;
         Hotel_PlanisphereFolders.HotelサイトFolder _hotelサイト;
         Hotel_PlanisphereFolders.RxDemoAppAppFolder _rxdemoapp;
 
@@ -50,11 +47,8 @@ namespace HotelTrainingTest.Repository
         public Hotel_Planisphere() 
             : base("Hotel_Planisphere", "/", null, 0, false, "69c7490d-d614-4ebc-96f1-76f669a004c7", ".\\RepositoryImages\\Hotel_Planisphere69c7490d.rximgres")
         {
-            _chrome_hotel_planisphere = new Hotel_PlanisphereFolders.Chrome_HOTEL_PLANISPHEREAppFolder(this);
-            _ダイアログ_ファイル選択_アイコン設定 = new Hotel_PlanisphereFolders.ダイアログ_ファイル選択_アイコン設定AppFolder(this);
             _追加課題_共通 = new Hotel_PlanisphereFolders.追加課題_共通AppFolder(this);
             _追加課題_ファイルダウンロード = new Hotel_PlanisphereFolders.追加課題_ファイルダウンロードAppFolder(this);
-            _ダイアログ_名前を付けて保存 = new Hotel_PlanisphereFolders.ダイアログ_名前を付けて保存AppFolder(this);
             _hotelサイト = new Hotel_PlanisphereFolders.HotelサイトFolder(this);
             _rxdemoapp = new Hotel_PlanisphereFolders.RxDemoAppAppFolder(this);
         }
@@ -196,24 +190,6 @@ namespace HotelTrainingTest.Repository
         }
 
         /// <summary>
-        /// The Chrome_HOTEL_PLANISPHERE folder.
-        /// </summary>
-        [RepositoryFolder("68737fad-c4d9-4514-8858-393fd843b82c")]
-        public virtual Hotel_PlanisphereFolders.Chrome_HOTEL_PLANISPHEREAppFolder Chrome_HOTEL_PLANISPHERE
-        {
-            get { return _chrome_hotel_planisphere; }
-        }
-
-        /// <summary>
-        /// The ダイアログ_ファイル選択_アイコン設定 folder.
-        /// </summary>
-        [RepositoryFolder("690021a4-e482-4791-82fa-2f60831ea7df")]
-        public virtual Hotel_PlanisphereFolders.ダイアログ_ファイル選択_アイコン設定AppFolder ダイアログ_ファイル選択_アイコン設定
-        {
-            get { return _ダイアログ_ファイル選択_アイコン設定; }
-        }
-
-        /// <summary>
         /// The 追加課題_共通 folder.
         /// </summary>
         [RepositoryFolder("27748aa9-ecf2-4a36-823d-22506f87eeca")]
@@ -229,15 +205,6 @@ namespace HotelTrainingTest.Repository
         public virtual Hotel_PlanisphereFolders.追加課題_ファイルダウンロードAppFolder 追加課題_ファイルダウンロード
         {
             get { return _追加課題_ファイルダウンロード; }
-        }
-
-        /// <summary>
-        /// The ダイアログ_名前を付けて保存 folder.
-        /// </summary>
-        [RepositoryFolder("997fef90-396f-4713-8990-6a340f6143b5")]
-        public virtual Hotel_PlanisphereFolders.ダイアログ_名前を付けて保存AppFolder ダイアログ_名前を付けて保存
-        {
-            get { return _ダイアログ_名前を付けて保存; }
         }
 
         /// <summary>
@@ -265,345 +232,6 @@ namespace HotelTrainingTest.Repository
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
     public partial class Hotel_PlanisphereFolders
     {
-        /// <summary>
-        /// The Chrome_HOTEL_PLANISPHEREAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("68737fad-c4d9-4514-8858-393fd843b82c")]
-        public partial class Chrome_HOTEL_PLANISPHEREAppFolder : RepoGenBaseFolder
-        {
-            Hotel_PlanisphereFolders.ダイアログFolder _ダイアログ;
-            RepoItemInfo _dialog_退会確認Info;
-            RepoItemInfo _dialog_退会完了Info;
-
-            /// <summary>
-            /// Creates a new Chrome_HOTEL_PLANISPHERE  folder.
-            /// </summary>
-            public Chrome_HOTEL_PLANISPHEREAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("Chrome_HOTEL_PLANISPHERE", "/form[@title>'マイページ | HOTEL PLANISPHERE']", parentFolder, 30000, null, false, "68737fad-c4d9-4514-8858-393fd843b82c", "")
-            {
-                _ダイアログ = new Hotel_PlanisphereFolders.ダイアログFolder(this);
-                _dialog_退会確認Info = new RepoItemInfo(this, "dialog_退会確認", ".//form[@accessibledescription='退会すると全ての情報が削除されます。よろしいですか？']", "element", 30000, null, "6ae354c5-734d-4013-bc46-3441c3d84b24");
-                _dialog_退会完了Info = new RepoItemInfo(this, "dialog_退会完了", ".//form[@accessibledescription='退会処理を完了しました。ご利用ありがとうございました。']", "element", 30000, null, "f826a3e0-35ab-407e-b11a-e96d83fb6155");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("68737fad-c4d9-4514-8858-393fd843b82c")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("68737fad-c4d9-4514-8858-393fd843b82c")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The dialog_退会確認 item.
-            /// </summary>
-            [RepositoryItem("6ae354c5-734d-4013-bc46-3441c3d84b24")]
-            public virtual Ranorex.Form dialog_退会確認
-            {
-                get
-                {
-                    return _dialog_退会確認Info.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The dialog_退会確認 item info.
-            /// </summary>
-            [RepositoryItemInfo("6ae354c5-734d-4013-bc46-3441c3d84b24")]
-            public virtual RepoItemInfo dialog_退会確認Info
-            {
-                get
-                {
-                    return _dialog_退会確認Info;
-                }
-            }
-
-            /// <summary>
-            /// The dialog_退会完了 item.
-            /// </summary>
-            [RepositoryItem("f826a3e0-35ab-407e-b11a-e96d83fb6155")]
-            public virtual Ranorex.Form dialog_退会完了
-            {
-                get
-                {
-                    return _dialog_退会完了Info.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The dialog_退会完了 item info.
-            /// </summary>
-            [RepositoryItemInfo("f826a3e0-35ab-407e-b11a-e96d83fb6155")]
-            public virtual RepoItemInfo dialog_退会完了Info
-            {
-                get
-                {
-                    return _dialog_退会完了Info;
-                }
-            }
-
-            /// <summary>
-            /// The ダイアログ folder.
-            /// </summary>
-            [RepositoryFolder("a46abd42-f405-4b94-bbe5-2c06a40f48dd")]
-            public virtual Hotel_PlanisphereFolders.ダイアログFolder ダイアログ
-            {
-                get { return _ダイアログ; }
-            }
-        }
-
-        /// <summary>
-        /// The ダイアログFolder folder.
-        /// </summary>
-        [RepositoryFolder("a46abd42-f405-4b94-bbe5-2c06a40f48dd")]
-        public partial class ダイアログFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _button_ok_edgeInfo;
-            RepoItemInfo _button_キャンセル_edgeInfo;
-            RepoItemInfo _button_ok_chromeInfo;
-            RepoItemInfo _button_キャンセル_chromeInfo;
-
-            /// <summary>
-            /// Creates a new ダイアログ  folder.
-            /// </summary>
-            public ダイアログFolder(RepoGenBaseFolder parentFolder) :
-                    base("ダイアログ", ".//container[1]/form", parentFolder, 30000, null, false, "a46abd42-f405-4b94-bbe5-2c06a40f48dd", "")
-            {
-                _button_ok_edgeInfo = new RepoItemInfo(this, "button_OK_Edge", ".//button[@name='OK']", "", 30000, null, "5af54571-f714-47e9-ba60-1cace541d135");
-                _button_キャンセル_edgeInfo = new RepoItemInfo(this, "button_キャンセル_Edge", ".//button[@name='キャンセル']", "", 30000, null, "9b56e5d3-330c-44ec-ba09-b84537fa32ab");
-                _button_ok_chromeInfo = new RepoItemInfo(this, "button_OK_Chrome", ".//button[@accessiblename='OK']", "element", 30000, null, "c809ef97-2cab-4a08-b7f6-8f85e742686e");
-                _button_キャンセル_chromeInfo = new RepoItemInfo(this, "button_キャンセル_Chrome", ".//button[@accesiblename='キャンセル']", "element", 30000, null, "73f5fe08-a939-4358-94c0-4bb89996e837");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("a46abd42-f405-4b94-bbe5-2c06a40f48dd")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("a46abd42-f405-4b94-bbe5-2c06a40f48dd")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The button_OK_Edge item.
-            /// </summary>
-            [RepositoryItem("5af54571-f714-47e9-ba60-1cace541d135")]
-            public virtual Ranorex.Button button_OK_Edge
-            {
-                get
-                {
-                    return _button_ok_edgeInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The button_OK_Edge item info.
-            /// </summary>
-            [RepositoryItemInfo("5af54571-f714-47e9-ba60-1cace541d135")]
-            public virtual RepoItemInfo button_OK_EdgeInfo
-            {
-                get
-                {
-                    return _button_ok_edgeInfo;
-                }
-            }
-
-            /// <summary>
-            /// The button_キャンセル_Edge item.
-            /// </summary>
-            [RepositoryItem("9b56e5d3-330c-44ec-ba09-b84537fa32ab")]
-            public virtual Ranorex.Button button_キャンセル_Edge
-            {
-                get
-                {
-                    return _button_キャンセル_edgeInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The button_キャンセル_Edge item info.
-            /// </summary>
-            [RepositoryItemInfo("9b56e5d3-330c-44ec-ba09-b84537fa32ab")]
-            public virtual RepoItemInfo button_キャンセル_EdgeInfo
-            {
-                get
-                {
-                    return _button_キャンセル_edgeInfo;
-                }
-            }
-
-            /// <summary>
-            /// The button_OK_Chrome item.
-            /// </summary>
-            [RepositoryItem("c809ef97-2cab-4a08-b7f6-8f85e742686e")]
-            public virtual Ranorex.Button button_OK_Chrome
-            {
-                get
-                {
-                    return _button_ok_chromeInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The button_OK_Chrome item info.
-            /// </summary>
-            [RepositoryItemInfo("c809ef97-2cab-4a08-b7f6-8f85e742686e")]
-            public virtual RepoItemInfo button_OK_ChromeInfo
-            {
-                get
-                {
-                    return _button_ok_chromeInfo;
-                }
-            }
-
-            /// <summary>
-            /// The button_キャンセル_Chrome item.
-            /// </summary>
-            [RepositoryItem("73f5fe08-a939-4358-94c0-4bb89996e837")]
-            public virtual Ranorex.Button button_キャンセル_Chrome
-            {
-                get
-                {
-                    return _button_キャンセル_chromeInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The button_キャンセル_Chrome item info.
-            /// </summary>
-            [RepositoryItemInfo("73f5fe08-a939-4358-94c0-4bb89996e837")]
-            public virtual RepoItemInfo button_キャンセル_ChromeInfo
-            {
-                get
-                {
-                    return _button_キャンセル_chromeInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The ダイアログ_ファイル選択_アイコン設定AppFolder folder.
-        /// </summary>
-        [RepositoryFolder("690021a4-e482-4791-82fa-2f60831ea7df")]
-        public partial class ダイアログ_ファイル選択_アイコン設定AppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _button_開くInfo;
-            RepoItemInfo _textbox_ファイル名Info;
-
-            /// <summary>
-            /// Creates a new ダイアログ_ファイル選択_アイコン設定  folder.
-            /// </summary>
-            public ダイアログ_ファイル選択_アイコン設定AppFolder(RepoGenBaseFolder parentFolder) :
-                    base("ダイアログ_ファイル選択_アイコン設定", "/form[@title='開く']", parentFolder, 30000, null, false, "690021a4-e482-4791-82fa-2f60831ea7df", "")
-            {
-                _button_開くInfo = new RepoItemInfo(this, "button_開く", ".//button[@text='開く(&O)']", "element", 30000, null, "f9bc7a42-9638-4511-8fe9-9969d1a26a34");
-                _textbox_ファイル名Info = new RepoItemInfo(this, "textbox_ファイル名", ".//text[@controlid='1148']", "element", 30000, null, "53b12632-4c82-4350-8ca6-fc3ec0857e12");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("690021a4-e482-4791-82fa-2f60831ea7df")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("690021a4-e482-4791-82fa-2f60831ea7df")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The button_開く item.
-            /// </summary>
-            [RepositoryItem("f9bc7a42-9638-4511-8fe9-9969d1a26a34")]
-            public virtual Ranorex.Button button_開く
-            {
-                get
-                {
-                    return _button_開くInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The button_開く item info.
-            /// </summary>
-            [RepositoryItemInfo("f9bc7a42-9638-4511-8fe9-9969d1a26a34")]
-            public virtual RepoItemInfo button_開くInfo
-            {
-                get
-                {
-                    return _button_開くInfo;
-                }
-            }
-
-            /// <summary>
-            /// The textbox_ファイル名 item.
-            /// </summary>
-            [RepositoryItem("53b12632-4c82-4350-8ca6-fc3ec0857e12")]
-            public virtual Ranorex.Text textbox_ファイル名
-            {
-                get
-                {
-                    return _textbox_ファイル名Info.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The textbox_ファイル名 item info.
-            /// </summary>
-            [RepositoryItemInfo("53b12632-4c82-4350-8ca6-fc3ec0857e12")]
-            public virtual RepoItemInfo textbox_ファイル名Info
-            {
-                get
-                {
-                    return _textbox_ファイル名Info;
-                }
-            }
-        }
-
         /// <summary>
         /// The 追加課題_共通AppFolder folder.
         /// </summary>
@@ -737,98 +365,6 @@ namespace HotelTrainingTest.Repository
         }
 
         /// <summary>
-        /// The ダイアログ_名前を付けて保存AppFolder folder.
-        /// </summary>
-        [RepositoryFolder("997fef90-396f-4713-8990-6a340f6143b5")]
-        public partial class ダイアログ_名前を付けて保存AppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _textbox_ファイル名Info;
-            RepoItemInfo _button_保存Info;
-
-            /// <summary>
-            /// Creates a new ダイアログ_名前を付けて保存  folder.
-            /// </summary>
-            public ダイアログ_名前を付けて保存AppFolder(RepoGenBaseFolder parentFolder) :
-                    base("ダイアログ_名前を付けて保存", "/form[@title='名前を付けて保存']", parentFolder, 30000, null, false, "997fef90-396f-4713-8990-6a340f6143b5", "")
-            {
-                _textbox_ファイル名Info = new RepoItemInfo(this, "textbox_ファイル名", ".//container[@classname='DUIViewWndClassName']//text[@automationid='1001']", "", 30000, null, "1aa809d2-fcde-44d7-b2c9-bfcac7e610ec");
-                _button_保存Info = new RepoItemInfo(this, "button_保存", ".//button[@name='保存(S)']", "", 30000, null, "052a9a7e-0b5b-4d69-9e5c-a272ced1968d");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("997fef90-396f-4713-8990-6a340f6143b5")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("997fef90-396f-4713-8990-6a340f6143b5")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The textbox_ファイル名 item.
-            /// </summary>
-            [RepositoryItem("1aa809d2-fcde-44d7-b2c9-bfcac7e610ec")]
-            public virtual Ranorex.Text textbox_ファイル名
-            {
-                get
-                {
-                    return _textbox_ファイル名Info.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The textbox_ファイル名 item info.
-            /// </summary>
-            [RepositoryItemInfo("1aa809d2-fcde-44d7-b2c9-bfcac7e610ec")]
-            public virtual RepoItemInfo textbox_ファイル名Info
-            {
-                get
-                {
-                    return _textbox_ファイル名Info;
-                }
-            }
-
-            /// <summary>
-            /// The button_保存 item.
-            /// </summary>
-            [RepositoryItem("052a9a7e-0b5b-4d69-9e5c-a272ced1968d")]
-            public virtual Ranorex.Button button_保存
-            {
-                get
-                {
-                    return _button_保存Info.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The button_保存 item info.
-            /// </summary>
-            [RepositoryItemInfo("052a9a7e-0b5b-4d69-9e5c-a272ced1968d")]
-            public virtual RepoItemInfo button_保存Info
-            {
-                get
-                {
-                    return _button_保存Info;
-                }
-            }
-        }
-
-        /// <summary>
         /// The HotelサイトFolder folder.
         /// </summary>
         [RepositoryFolder("e5799459-bb14-4949-9f9f-4b78b98361dc")]
@@ -843,6 +379,9 @@ namespace HotelTrainingTest.Repository
             Hotel_PlanisphereFolders.Hotel_ログイン画面AppFolder _hotel_ログイン画面;
             Hotel_PlanisphereFolders.Hotel_マイページ画面AppFolder _hotel_マイページ画面;
             Hotel_PlanisphereFolders.Hotel_アイコン設定画面AppFolder _hotel_アイコン設定画面;
+            Hotel_PlanisphereFolders.Chrome_HOTEL_PLANISPHEREAppFolder _chrome_hotel_planisphere;
+            Hotel_PlanisphereFolders.ダイアログ_ファイル選択_アイコン設定AppFolder _ダイアログ_ファイル選択_アイコン設定;
+            Hotel_PlanisphereFolders.ダイアログ_名前を付けて保存AppFolder _ダイアログ_名前を付けて保存;
 
             /// <summary>
             /// Creates a new Hotelサイト  folder.
@@ -859,6 +398,9 @@ namespace HotelTrainingTest.Repository
                 _hotel_ログイン画面 = new Hotel_PlanisphereFolders.Hotel_ログイン画面AppFolder(this);
                 _hotel_マイページ画面 = new Hotel_PlanisphereFolders.Hotel_マイページ画面AppFolder(this);
                 _hotel_アイコン設定画面 = new Hotel_PlanisphereFolders.Hotel_アイコン設定画面AppFolder(this);
+                _chrome_hotel_planisphere = new Hotel_PlanisphereFolders.Chrome_HOTEL_PLANISPHEREAppFolder(this);
+                _ダイアログ_ファイル選択_アイコン設定 = new Hotel_PlanisphereFolders.ダイアログ_ファイル選択_アイコン設定AppFolder(this);
+                _ダイアログ_名前を付けて保存 = new Hotel_PlanisphereFolders.ダイアログ_名前を付けて保存AppFolder(this);
             }
 
             /// <summary>
@@ -952,6 +494,33 @@ namespace HotelTrainingTest.Repository
             public virtual Hotel_PlanisphereFolders.Hotel_アイコン設定画面AppFolder Hotel_アイコン設定画面
             {
                 get { return _hotel_アイコン設定画面; }
+            }
+
+            /// <summary>
+            /// The Chrome_HOTEL_PLANISPHERE folder.
+            /// </summary>
+            [RepositoryFolder("68737fad-c4d9-4514-8858-393fd843b82c")]
+            public virtual Hotel_PlanisphereFolders.Chrome_HOTEL_PLANISPHEREAppFolder Chrome_HOTEL_PLANISPHERE
+            {
+                get { return _chrome_hotel_planisphere; }
+            }
+
+            /// <summary>
+            /// The ダイアログ_ファイル選択_アイコン設定 folder.
+            /// </summary>
+            [RepositoryFolder("690021a4-e482-4791-82fa-2f60831ea7df")]
+            public virtual Hotel_PlanisphereFolders.ダイアログ_ファイル選択_アイコン設定AppFolder ダイアログ_ファイル選択_アイコン設定
+            {
+                get { return _ダイアログ_ファイル選択_アイコン設定; }
+            }
+
+            /// <summary>
+            /// The ダイアログ_名前を付けて保存 folder.
+            /// </summary>
+            [RepositoryFolder("997fef90-396f-4713-8990-6a340f6143b5")]
+            public virtual Hotel_PlanisphereFolders.ダイアログ_名前を付けて保存AppFolder ダイアログ_名前を付けて保存
+            {
+                get { return _ダイアログ_名前を付けて保存; }
             }
         }
 
@@ -4217,6 +3786,437 @@ namespace HotelTrainingTest.Repository
                 get
                 {
                     return _label_エラーメッセージInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The Chrome_HOTEL_PLANISPHEREAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("68737fad-c4d9-4514-8858-393fd843b82c")]
+        public partial class Chrome_HOTEL_PLANISPHEREAppFolder : RepoGenBaseFolder
+        {
+            Hotel_PlanisphereFolders.ダイアログFolder _ダイアログ;
+            RepoItemInfo _dialog_退会確認Info;
+            RepoItemInfo _dialog_退会完了Info;
+
+            /// <summary>
+            /// Creates a new Chrome_HOTEL_PLANISPHERE  folder.
+            /// </summary>
+            public Chrome_HOTEL_PLANISPHEREAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Chrome_HOTEL_PLANISPHERE", "/form[@title>'マイページ | HOTEL PLANISPHERE']", parentFolder, 30000, null, false, "68737fad-c4d9-4514-8858-393fd843b82c", "")
+            {
+                _ダイアログ = new Hotel_PlanisphereFolders.ダイアログFolder(this);
+                _dialog_退会確認Info = new RepoItemInfo(this, "dialog_退会確認", ".//form[@accessibledescription='退会すると全ての情報が削除されます。よろしいですか？']", "element", 30000, null, "6ae354c5-734d-4013-bc46-3441c3d84b24");
+                _dialog_退会完了Info = new RepoItemInfo(this, "dialog_退会完了", ".//form[@accessibledescription='退会処理を完了しました。ご利用ありがとうございました。']", "element", 30000, null, "f826a3e0-35ab-407e-b11a-e96d83fb6155");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("68737fad-c4d9-4514-8858-393fd843b82c")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("68737fad-c4d9-4514-8858-393fd843b82c")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The dialog_退会確認 item.
+            /// </summary>
+            [RepositoryItem("6ae354c5-734d-4013-bc46-3441c3d84b24")]
+            public virtual Ranorex.Form dialog_退会確認
+            {
+                get
+                {
+                    return _dialog_退会確認Info.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The dialog_退会確認 item info.
+            /// </summary>
+            [RepositoryItemInfo("6ae354c5-734d-4013-bc46-3441c3d84b24")]
+            public virtual RepoItemInfo dialog_退会確認Info
+            {
+                get
+                {
+                    return _dialog_退会確認Info;
+                }
+            }
+
+            /// <summary>
+            /// The dialog_退会完了 item.
+            /// </summary>
+            [RepositoryItem("f826a3e0-35ab-407e-b11a-e96d83fb6155")]
+            public virtual Ranorex.Form dialog_退会完了
+            {
+                get
+                {
+                    return _dialog_退会完了Info.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The dialog_退会完了 item info.
+            /// </summary>
+            [RepositoryItemInfo("f826a3e0-35ab-407e-b11a-e96d83fb6155")]
+            public virtual RepoItemInfo dialog_退会完了Info
+            {
+                get
+                {
+                    return _dialog_退会完了Info;
+                }
+            }
+
+            /// <summary>
+            /// The ダイアログ folder.
+            /// </summary>
+            [RepositoryFolder("a46abd42-f405-4b94-bbe5-2c06a40f48dd")]
+            public virtual Hotel_PlanisphereFolders.ダイアログFolder ダイアログ
+            {
+                get { return _ダイアログ; }
+            }
+        }
+
+        /// <summary>
+        /// The ダイアログFolder folder.
+        /// </summary>
+        [RepositoryFolder("a46abd42-f405-4b94-bbe5-2c06a40f48dd")]
+        public partial class ダイアログFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _button_ok_edgeInfo;
+            RepoItemInfo _button_キャンセル_edgeInfo;
+            RepoItemInfo _button_ok_chromeInfo;
+            RepoItemInfo _button_キャンセル_chromeInfo;
+
+            /// <summary>
+            /// Creates a new ダイアログ  folder.
+            /// </summary>
+            public ダイアログFolder(RepoGenBaseFolder parentFolder) :
+                    base("ダイアログ", ".//container[1]/form", parentFolder, 30000, null, false, "a46abd42-f405-4b94-bbe5-2c06a40f48dd", "")
+            {
+                _button_ok_edgeInfo = new RepoItemInfo(this, "button_OK_Edge", ".//button[@name='OK']", "", 30000, null, "5af54571-f714-47e9-ba60-1cace541d135");
+                _button_キャンセル_edgeInfo = new RepoItemInfo(this, "button_キャンセル_Edge", ".//button[@name='キャンセル']", "", 30000, null, "9b56e5d3-330c-44ec-ba09-b84537fa32ab");
+                _button_ok_chromeInfo = new RepoItemInfo(this, "button_OK_Chrome", ".//button[@accessiblename='OK']", "element", 30000, null, "c809ef97-2cab-4a08-b7f6-8f85e742686e");
+                _button_キャンセル_chromeInfo = new RepoItemInfo(this, "button_キャンセル_Chrome", ".//button[@accesiblename='キャンセル']", "element", 30000, null, "73f5fe08-a939-4358-94c0-4bb89996e837");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("a46abd42-f405-4b94-bbe5-2c06a40f48dd")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("a46abd42-f405-4b94-bbe5-2c06a40f48dd")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The button_OK_Edge item.
+            /// </summary>
+            [RepositoryItem("5af54571-f714-47e9-ba60-1cace541d135")]
+            public virtual Ranorex.Button button_OK_Edge
+            {
+                get
+                {
+                    return _button_ok_edgeInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The button_OK_Edge item info.
+            /// </summary>
+            [RepositoryItemInfo("5af54571-f714-47e9-ba60-1cace541d135")]
+            public virtual RepoItemInfo button_OK_EdgeInfo
+            {
+                get
+                {
+                    return _button_ok_edgeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The button_キャンセル_Edge item.
+            /// </summary>
+            [RepositoryItem("9b56e5d3-330c-44ec-ba09-b84537fa32ab")]
+            public virtual Ranorex.Button button_キャンセル_Edge
+            {
+                get
+                {
+                    return _button_キャンセル_edgeInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The button_キャンセル_Edge item info.
+            /// </summary>
+            [RepositoryItemInfo("9b56e5d3-330c-44ec-ba09-b84537fa32ab")]
+            public virtual RepoItemInfo button_キャンセル_EdgeInfo
+            {
+                get
+                {
+                    return _button_キャンセル_edgeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The button_OK_Chrome item.
+            /// </summary>
+            [RepositoryItem("c809ef97-2cab-4a08-b7f6-8f85e742686e")]
+            public virtual Ranorex.Button button_OK_Chrome
+            {
+                get
+                {
+                    return _button_ok_chromeInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The button_OK_Chrome item info.
+            /// </summary>
+            [RepositoryItemInfo("c809ef97-2cab-4a08-b7f6-8f85e742686e")]
+            public virtual RepoItemInfo button_OK_ChromeInfo
+            {
+                get
+                {
+                    return _button_ok_chromeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The button_キャンセル_Chrome item.
+            /// </summary>
+            [RepositoryItem("73f5fe08-a939-4358-94c0-4bb89996e837")]
+            public virtual Ranorex.Button button_キャンセル_Chrome
+            {
+                get
+                {
+                    return _button_キャンセル_chromeInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The button_キャンセル_Chrome item info.
+            /// </summary>
+            [RepositoryItemInfo("73f5fe08-a939-4358-94c0-4bb89996e837")]
+            public virtual RepoItemInfo button_キャンセル_ChromeInfo
+            {
+                get
+                {
+                    return _button_キャンセル_chromeInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The ダイアログ_ファイル選択_アイコン設定AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("690021a4-e482-4791-82fa-2f60831ea7df")]
+        public partial class ダイアログ_ファイル選択_アイコン設定AppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _button_開くInfo;
+            RepoItemInfo _textbox_ファイル名Info;
+
+            /// <summary>
+            /// Creates a new ダイアログ_ファイル選択_アイコン設定  folder.
+            /// </summary>
+            public ダイアログ_ファイル選択_アイコン設定AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("ダイアログ_ファイル選択_アイコン設定", "/form[@title='開く']", parentFolder, 30000, null, false, "690021a4-e482-4791-82fa-2f60831ea7df", "")
+            {
+                _button_開くInfo = new RepoItemInfo(this, "button_開く", ".//button[@text='開く(&O)']", "element", 30000, null, "f9bc7a42-9638-4511-8fe9-9969d1a26a34");
+                _textbox_ファイル名Info = new RepoItemInfo(this, "textbox_ファイル名", ".//text[@controlid='1148']", "element", 30000, null, "53b12632-4c82-4350-8ca6-fc3ec0857e12");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("690021a4-e482-4791-82fa-2f60831ea7df")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("690021a4-e482-4791-82fa-2f60831ea7df")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The button_開く item.
+            /// </summary>
+            [RepositoryItem("f9bc7a42-9638-4511-8fe9-9969d1a26a34")]
+            public virtual Ranorex.Button button_開く
+            {
+                get
+                {
+                    return _button_開くInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The button_開く item info.
+            /// </summary>
+            [RepositoryItemInfo("f9bc7a42-9638-4511-8fe9-9969d1a26a34")]
+            public virtual RepoItemInfo button_開くInfo
+            {
+                get
+                {
+                    return _button_開くInfo;
+                }
+            }
+
+            /// <summary>
+            /// The textbox_ファイル名 item.
+            /// </summary>
+            [RepositoryItem("53b12632-4c82-4350-8ca6-fc3ec0857e12")]
+            public virtual Ranorex.Text textbox_ファイル名
+            {
+                get
+                {
+                    return _textbox_ファイル名Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The textbox_ファイル名 item info.
+            /// </summary>
+            [RepositoryItemInfo("53b12632-4c82-4350-8ca6-fc3ec0857e12")]
+            public virtual RepoItemInfo textbox_ファイル名Info
+            {
+                get
+                {
+                    return _textbox_ファイル名Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The ダイアログ_名前を付けて保存AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("997fef90-396f-4713-8990-6a340f6143b5")]
+        public partial class ダイアログ_名前を付けて保存AppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _textbox_ファイル名Info;
+            RepoItemInfo _button_保存Info;
+
+            /// <summary>
+            /// Creates a new ダイアログ_名前を付けて保存  folder.
+            /// </summary>
+            public ダイアログ_名前を付けて保存AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("ダイアログ_名前を付けて保存", "/form[@title='名前を付けて保存']", parentFolder, 30000, null, false, "997fef90-396f-4713-8990-6a340f6143b5", "")
+            {
+                _textbox_ファイル名Info = new RepoItemInfo(this, "textbox_ファイル名", ".//container[@classname='DUIViewWndClassName']//text[@automationid='1001']", "", 30000, null, "1aa809d2-fcde-44d7-b2c9-bfcac7e610ec");
+                _button_保存Info = new RepoItemInfo(this, "button_保存", ".//button[@name='保存(S)']", "", 30000, null, "052a9a7e-0b5b-4d69-9e5c-a272ced1968d");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("997fef90-396f-4713-8990-6a340f6143b5")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("997fef90-396f-4713-8990-6a340f6143b5")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The textbox_ファイル名 item.
+            /// </summary>
+            [RepositoryItem("1aa809d2-fcde-44d7-b2c9-bfcac7e610ec")]
+            public virtual Ranorex.Text textbox_ファイル名
+            {
+                get
+                {
+                    return _textbox_ファイル名Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The textbox_ファイル名 item info.
+            /// </summary>
+            [RepositoryItemInfo("1aa809d2-fcde-44d7-b2c9-bfcac7e610ec")]
+            public virtual RepoItemInfo textbox_ファイル名Info
+            {
+                get
+                {
+                    return _textbox_ファイル名Info;
+                }
+            }
+
+            /// <summary>
+            /// The button_保存 item.
+            /// </summary>
+            [RepositoryItem("052a9a7e-0b5b-4d69-9e5c-a272ced1968d")]
+            public virtual Ranorex.Button button_保存
+            {
+                get
+                {
+                    return _button_保存Info.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The button_保存 item info.
+            /// </summary>
+            [RepositoryItemInfo("052a9a7e-0b5b-4d69-9e5c-a272ced1968d")]
+            public virtual RepoItemInfo button_保存Info
+            {
+                get
+                {
+                    return _button_保存Info;
                 }
             }
         }

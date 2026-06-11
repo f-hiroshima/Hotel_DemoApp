@@ -91,15 +91,15 @@ namespace HotelTrainingTest.Module.マイページ
             repo.Hotelサイト.Hotel_マイページ画面.button_退会する.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome_HOTEL_PLANISPHERE.ダイアログ.button_OK_Chrome' at Center.", repo.Chrome_HOTEL_PLANISPHERE.ダイアログ.button_OK_ChromeInfo, new RecordItemIndex(3));
-            repo.Chrome_HOTEL_PLANISPHERE.ダイアログ.button_OK_Chrome.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Hotelサイト.Chrome_HOTEL_PLANISPHERE.ダイアログ.button_OK_Chrome' at Center.", repo.Hotelサイト.Chrome_HOTEL_PLANISPHERE.ダイアログ.button_OK_ChromeInfo, new RecordItemIndex(3));
+            repo.Hotelサイト.Chrome_HOTEL_PLANISPHERE.ダイアログ.button_OK_Chrome.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to not exist. Associated repository item: 'Chrome_HOTEL_PLANISPHERE.ダイアログ.button_キャンセル_Chrome'", repo.Chrome_HOTEL_PLANISPHERE.ダイアログ.button_キャンセル_ChromeInfo, new ActionTimeout(10000), new RecordItemIndex(4));
-            repo.Chrome_HOTEL_PLANISPHERE.ダイアログ.button_キャンセル_ChromeInfo.WaitForNotExists(10000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to not exist. Associated repository item: 'Hotelサイト.Chrome_HOTEL_PLANISPHERE.ダイアログ.button_キャンセル_Chrome'", repo.Hotelサイト.Chrome_HOTEL_PLANISPHERE.ダイアログ.button_キャンセル_ChromeInfo, new ActionTimeout(10000), new RecordItemIndex(4));
+            repo.Hotelサイト.Chrome_HOTEL_PLANISPHERE.ダイアログ.button_キャンセル_ChromeInfo.WaitForNotExists(10000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome_HOTEL_PLANISPHERE.ダイアログ.button_OK_Chrome' at Center.", repo.Chrome_HOTEL_PLANISPHERE.ダイアログ.button_OK_ChromeInfo, new RecordItemIndex(5));
-            repo.Chrome_HOTEL_PLANISPHERE.ダイアログ.button_OK_Chrome.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Hotelサイト.Chrome_HOTEL_PLANISPHERE.ダイアログ.button_OK_Chrome' at Center.", repo.Hotelサイト.Chrome_HOTEL_PLANISPHERE.ダイアログ.button_OK_ChromeInfo, new RecordItemIndex(5));
+            repo.Hotelサイト.Chrome_HOTEL_PLANISPHERE.ダイアログ.button_OK_Chrome.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded('5000ms') on item 'Hotelサイト.Hotel_共通'.", repo.Hotelサイト.Hotel_共通.SelfInfo, new RecordItemIndex(6));

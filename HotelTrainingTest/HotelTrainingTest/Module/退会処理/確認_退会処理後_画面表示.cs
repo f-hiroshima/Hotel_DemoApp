@@ -80,8 +80,8 @@ namespace HotelTrainingTest.Module.退会処理
             Init();
 
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating NotExists on item 'Chrome_HOTEL_PLANISPHERE.ダイアログ'.", repo.Chrome_HOTEL_PLANISPHERE.ダイアログ.SelfInfo, new RecordItemIndex(0));
-                Validate.NotExists(repo.Chrome_HOTEL_PLANISPHERE.ダイアログ.SelfInfo, null, false);
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating NotExists on item 'Hotelサイト.Chrome_HOTEL_PLANISPHERE.ダイアログ'.", repo.Hotelサイト.Chrome_HOTEL_PLANISPHERE.ダイアログ.SelfInfo, new RecordItemIndex(0));
+                Validate.NotExists(repo.Hotelサイト.Chrome_HOTEL_PLANISPHERE.ダイアログ.SelfInfo, null, false);
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             

@@ -20,7 +20,7 @@ mode="Global">
 	</useDefaultItemLogging>
 	<codegen
 	classname="操作_エビデンスフォルダ作成"
-	namespace="HotelTrainingTest.Module.画像比較">
+	namespace="HotelTrainingTest.Module_Usercode.画像比較">
 	</codegen>
 	<variables>
 		<var

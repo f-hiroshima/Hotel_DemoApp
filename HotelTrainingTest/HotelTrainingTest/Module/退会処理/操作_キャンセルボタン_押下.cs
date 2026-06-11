@@ -79,8 +79,8 @@ namespace HotelTrainingTest.Module.退会処理
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome_HOTEL_PLANISPHERE.ダイアログ.button_キャンセル_Edge' at Center.", repo.Chrome_HOTEL_PLANISPHERE.ダイアログ.button_キャンセル_EdgeInfo, new RecordItemIndex(0));
-            repo.Chrome_HOTEL_PLANISPHERE.ダイアログ.button_キャンセル_Edge.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Hotelサイト.Chrome_HOTEL_PLANISPHERE.ダイアログ.button_キャンセル_Edge' at Center.", repo.Hotelサイト.Chrome_HOTEL_PLANISPHERE.ダイアログ.button_キャンセル_EdgeInfo, new RecordItemIndex(0));
+            repo.Hotelサイト.Chrome_HOTEL_PLANISPHERE.ダイアログ.button_キャンセル_Edge.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded('5000ms') on item 'Hotelサイト.Hotel_共通'.", repo.Hotelサイト.Hotel_共通.SelfInfo, new RecordItemIndex(1));

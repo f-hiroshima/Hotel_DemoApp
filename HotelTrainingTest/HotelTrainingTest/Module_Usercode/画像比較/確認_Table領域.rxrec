@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="66b9d8fd-692a-408f-b4bb-c9ddef3bfb54"
+id="32dcaa59-3e35-4361-80a8-07c3ae465689"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,40 +19,40 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="確認_猫の画像"
-	namespace="HotelTrainingTest.Module.画像比較">
+	classname="確認_Table領域"
+	namespace="HotelTrainingTest.Module_Usercode.画像比較">
 	</codegen>
 	<variables>
 		<var
-		id="0960d050-cb95-48ea-8bc8-caefd8dcc445"
+		id="5fd01ac7-23e3-4098-bbc9-f1bc1acf6eca"
 		name="evidenceFileName">
 		</var>
 		<var
-		id="f405974b-6334-44e0-81bb-46ed755b9cee"
+		id="f375ed5c-cc72-437c-accd-973ae7b74bf9"
 		name="evidenceFolderPath">
 		</var>
 		<var
-		id="18ef11b1-176b-45be-b1af-a0f9a570b5a2"
+		id="4f266eab-078b-4905-8c8a-5a98a13e7990"
 		name="targetName">
 		</var>
 		<var
-		id="28427af1-1e77-415e-ac4b-17a02f63011f"
+		id="a61ea2fd-5300-42c3-b6ec-d9f4094a77b0"
 		name="fileExtension">
 		</var>
 		<var
-		id="91494507-d303-4770-b196-3556faf7705a"
+		id="5b1ff985-6b19-447a-a444-70ce30279a3f"
 		name="resultFileName">
 		</var>
 		<var
-		id="12b24834-d355-4b2a-96bc-6a3cd2930845"
+		id="d0116f07-dcaa-43bc-b58f-a87ae4104880"
 		name="resultFolderPath">
 		</var>
 		<var
-		id="e1799dc4-0e9f-42eb-b377-d8ef006df12f"
+		id="5478a3e2-0f45-447b-9592-b75eb958ee67"
 		name="targetFileName">
 		</var>
 		<var
-		id="5106599f-995e-4ab5-9265-42fad6a74b89"
+		id="616dd98a-4bfa-42a6-995f-b3c7b44cf49f"
 		name="targetFolderPath">
 		</var>
 	</variables>
@@ -61,7 +61,7 @@ mode="Global">
 		enabled="True"
 		optional="False">
 			<comment>
-				Image-basedタブの（カレンダー部分を除いての）画像比較をエビデンスフォルダ作成で作成したフォルダパスを使用する
+				UI-elementタブのTable領域(一部除外)の画像比較をエビデンスフォルダ作成で作成したフォルダパスを使用する
 			</comment>
 			<bindings>
 			</bindings>
@@ -277,10 +277,10 @@ mode="Global">
 					<argvalue>
 					</argvalue>
 					<info
-					id="da005783-2ead-48fb-b2b4-ab7c4010a1da"
+					id="5d718375-9561-4fcd-ae60-09502b3c36ad"
 					sourcename="RepositoryEditor">
 						<path>
-							/form[@controlname='RxMainFrame']//tabpage[@controlname='RxTabImageBased']
+							/form[@controlname='RxMainFrame']//tabpage[@controlname='RxTabUIElements']
 						</path>
 						<robustPath>
 						</robustPath>
@@ -302,7 +302,7 @@ mode="Global">
 		classname="UserCodeCollection_ImageCompare"
 		enabled="True"
 		isexternaltestmethod="True"
-		methodname="AddIgnoreRectUnknown"
+		methodname="AddIgnoreRectTableInitWin"
 		namespace="HotelTrainingTest.UserCode"
 		optional="False">
 			<comment>
@@ -310,38 +310,78 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<arguments
-			id="abd1c2db-1973-48f6-a6d9-9772c0524d16">
+			id="a8e7be60-4a0a-41a9-82ff-3d53366e448c">
 				<argument
-				argname="targetRepo"
-				id="a25061d0-39bc-46a8-8f53-f4705db31af4">
+				argname="startRowIndex"
+				id="7cfd3f37-ca2a-472b-8611-9a6b96ef0c5f">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						2
+					</argvalue>
+				</argument>
+				<argument
+				argname="startColIndex"
+				id="1e6d2a97-46bf-4658-a79f-dbb61b289f7e">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						3
+					</argvalue>
+				</argument>
+				<argument
+				argname="endRowIndex"
+				id="867436b6-5503-45c6-9268-e01acbea1af0">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						4
+					</argvalue>
+				</argument>
+				<argument
+				argname="endColIndex"
+				id="bd63072e-b258-40d9-b4ab-e4fd7289fe0d">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						5
+					</argvalue>
+				</argument>
+				<argument
+				argname="colRepo"
+				id="20cb4a24-b83c-43aa-8d31-834ff84d97b2">
 					<argvaluetype>
 						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
 					</argvaluetype>
 					<argvalue>
 					</argvalue>
 					<info
-					id="ae14371d-06e4-41b7-aa27-494d1c53cdcb"
-					sourcename="RepositoryEditor">
+					id="f4bd3677-8687-4e10-92af-b895c4106224"
+					sourcename="ItemRecorderEditor">
 						<path>
-							/form[@controlname='RxMainFrame']//tabpage[@controlname='RxTabImageBased']//datetime[@controlname='monthCalendar1']
+							/form[@controlname='RxMainFrame']//tabpage[@controlname='RxTabUIElements']//table[@controlname='dataGridView1']/row[$rowIndex]/cell[$colIndex]
 						</path>
 						<robustPath>
 						</robustPath>
 					</info>
 				</argument>
 				<argument
-				argname="baseRepo"
-				id="3c553282-605f-49a0-950d-b1bca0f6fc10">
+				argname="bodyRepo"
+				id="368236ee-fd2c-46d1-a5e1-18bd5c8dd466">
 					<argvaluetype>
 						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
 					</argvaluetype>
 					<argvalue>
 					</argvalue>
 					<info
-					id="da005783-2ead-48fb-b2b4-ab7c4010a1da"
-					sourcename="RepositoryEditor">
+					id="5d718375-9561-4fcd-ae60-09502b3c36ad"
+					sourcename="ItemRecorderEditor">
 						<path>
-							/form[@controlname='RxMainFrame']//tabpage[@controlname='RxTabImageBased']
+							/form[@controlname='RxMainFrame']//tabpage[@controlname='RxTabUIElements']
 						</path>
 						<robustPath>
 						</robustPath>
@@ -410,7 +450,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		確認_猫の画像.UserCode.cs
+		確認_Table領域.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

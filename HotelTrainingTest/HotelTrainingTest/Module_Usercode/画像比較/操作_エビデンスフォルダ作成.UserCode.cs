@@ -20,9 +20,9 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
-namespace HotelTrainingTest.Module.画像比較
+namespace HotelTrainingTest.Module_Usercode.画像比較
 {
-    public partial class 確認_ログアウトボタン
+    public partial class 操作_エビデンスフォルダ作成
     {
         /// <summary>
         /// This method gets called right after the recording has been started.

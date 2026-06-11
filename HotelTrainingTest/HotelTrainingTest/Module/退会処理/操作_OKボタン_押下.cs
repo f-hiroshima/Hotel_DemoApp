@@ -79,8 +79,8 @@ namespace HotelTrainingTest.Module.退会処理
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome_HOTEL_PLANISPHERE.ダイアログ.button_OK_Edge' at Center.", repo.Chrome_HOTEL_PLANISPHERE.ダイアログ.button_OK_EdgeInfo, new RecordItemIndex(0));
-            repo.Chrome_HOTEL_PLANISPHERE.ダイアログ.button_OK_Edge.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Hotelサイト.Chrome_HOTEL_PLANISPHERE.ダイアログ.button_OK_Edge' at Center.", repo.Hotelサイト.Chrome_HOTEL_PLANISPHERE.ダイアログ.button_OK_EdgeInfo, new RecordItemIndex(0));
+            repo.Hotelサイト.Chrome_HOTEL_PLANISPHERE.ダイアログ.button_OK_Edge.Click();
             Delay.Milliseconds(0);
             
         }
